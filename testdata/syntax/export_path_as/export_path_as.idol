@@ -1,0 +1,4 @@
+namespace "idol.test/ns"
+import "example.test/ns" as example_ns
+
+export example_ns.Foo as RenamedFoo

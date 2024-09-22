@@ -1,0 +1,51 @@
+{"file": {
+    "span": {"start": 0, "len": 65},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"import-as": {
+            "span": {"start": 26, "len": 38},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 6},
+                    "unparse": "import"}},
+                {"space": {
+                    "span": {"start": 32, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 33, "len": 17},
+                    "value": "example.test/ns"}},
+                {"space": {
+                    "span": {"start": 50, "len": 1},
+                    "unparse": " "}},
+                {"keyword": {
+                    "span": {"start": 51, "len": 2},
+                    "unparse": "as"}},
+                {"space": {
+                    "span": {"start": 53, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 54, "len": 10},
+                    "value": "example_ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 64, "len": 1},
+            "unparse": "\n"}}
+    ]}}

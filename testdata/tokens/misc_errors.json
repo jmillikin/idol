@@ -1,0 +1,14 @@
+{
+	"expect_err": [
+		{
+			"source": "!",
+			"error": "unexpected_char",
+			"error_span": {"start": 0, "len": 1}
+		},
+		{
+			"source": "\u3042",
+			"error": "unexpected_char",
+			"error_span": {"start": 0, "len": 3}
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{"file": {
+    "span": {"start": 0, "len": 60},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"union": {
+            "span": {"start": 26, "len": 32},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 5},
+                    "unparse": "union"}},
+                {"space": {
+                    "span": {"start": 31, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 32, "len": 3},
+                    "value": "Foo"}},
+                {"space": {
+                    "span": {"start": 35, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 36, "len": 1},
+                    "unparse": "{"}},
+                {"newline": {
+                    "span": {"start": 37, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 38, "len": 1},
+                    "unparse": "\t"}},
+                {"union-field": {
+                    "span": {"start": 39, "len": 7},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 39, "len": 1},
+                            "value": "a"}},
+                        {"tag": {
+                            "span": {"start": 40, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 40, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 41, "len": 1},
+                                    "value": 1}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 42, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 43, "len": 1},
+                            "unparse": " "}},
+                        {"field-type": {
+                            "span": {"start": 44, "len": 2},
+                            "child-nodes": [
+                                {"type-name": {
+                                    "span": {"start": 44, "len": 2},
+                                    "child-nodes": [
+                                        {"ident": {
+                                            "span": {"start": 44, "len": 2},
+                                            "value": "u8"}}
+                                    ]}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 46, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 47, "len": 1},
+                    "unparse": "\t"}},
+                {"union-field": {
+                    "span": {"start": 48, "len": 8},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 48, "len": 1},
+                            "value": "b"}},
+                        {"tag": {
+                            "span": {"start": 49, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 49, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 50, "len": 1},
+                                    "value": 2}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 51, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 52, "len": 1},
+                            "unparse": " "}},
+                        {"field-type": {
+                            "span": {"start": 53, "len": 3},
+                            "child-nodes": [
+                                {"type-name": {
+                                    "span": {"start": 53, "len": 3},
+                                    "child-nodes": [
+                                        {"ident": {
+                                            "span": {"start": 53, "len": 3},
+                                            "value": "u16"}}
+                                    ]}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 56, "len": 1},
+                    "unparse": "\n"}},
+                {"sigil": {
+                    "span": {"start": 57, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 58, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 59, "len": 1},
+            "unparse": "\n"}}
+    ]}}

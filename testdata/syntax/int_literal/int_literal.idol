@@ -1,0 +1,27 @@
+namespace "idol.test/ns"
+
+const INT_U8_A: u8 = 0
+const INT_U8_B: u8 = 12
+
+const INT_U8_BIN_A: u8 = 0b0
+const INT_U8_BIN_B: u8 = 0b00
+const INT_U8_BIN_C: u8 = 0b10
+
+const INT_U8_OCT_A: u8 = 0o0
+const INT_U8_OCT_B: u8 = 0o00
+const INT_U8_OCT_C: u8 = 0o12
+
+const INT_U8_DEC_A: u8 = 0d0
+const INT_U8_DEC_B: u8 = 0d00
+const INT_U8_DEC_C: u8 = 0d12
+
+const INT_U8_HEX_A: u8 = 0x0
+const INT_U8_HEX_B: u8 = 0x00
+const INT_U8_HEX_C: u8 = 0x12
+
+const INT_I8_01: i8 = -12
+const INT_I8_02: i8 = -0o12
+const INT_I8_03: i8 = -0d12
+const INT_I8_04: i8 = -0x12
+
+const INT_U64_01: u64 = 1234567890

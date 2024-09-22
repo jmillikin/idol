@@ -1,0 +1,7 @@
+namespace "idol.test/ns"
+
+@{ a = 1 }
+const FOO: u8 = 1
+
+@{ a }
+const FOO_2: u8 = 1

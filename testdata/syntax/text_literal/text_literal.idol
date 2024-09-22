@@ -1,0 +1,10 @@
+namespace "idol.test/ns"
+
+const TEXT_01: text = ""
+const TEXT_02: text = "abc"
+const TEXT_03: text = "a\nc"
+const TEXT_04: text = "a\\c"
+const TEXT_05: text = "a\"c"
+const TEXT_06: text = "a\x20c"
+const TEXT_07: text = "a\u{0020}c"
+const TEXT_07: text = "あbc"

@@ -1,0 +1,6 @@
+namespace "idol.test/ns"
+
+options { a = 1 b = 2 }
+
+@options { preserves_decorators = true }
+const FOO: bool = false

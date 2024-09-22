@@ -1,0 +1,178 @@
+{"file": {
+    "span": {"start": 0, "len": 83},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"decorator": {
+            "span": {"start": 26, "len": 10},
+            "child-nodes": [
+                {"sigil": {
+                    "span": {"start": 26, "len": 1},
+                    "unparse": "@"}},
+                {"option": {
+                    "span": {"start": 27, "len": 9},
+                    "child-nodes": [
+                        {"sigil": {
+                            "span": {"start": 27, "len": 1},
+                            "unparse": "{"}},
+                        {"space": {
+                            "span": {"start": 28, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 29, "len": 1},
+                            "value": "a"}},
+                        {"space": {
+                            "span": {"start": 30, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 31, "len": 1},
+                            "unparse": "="}},
+                        {"space": {
+                            "span": {"start": 32, "len": 1},
+                            "unparse": " "}},
+                        {"int-lit": {
+                            "span": {"start": 33, "len": 1},
+                            "value": 1}},
+                        {"space": {
+                            "span": {"start": 34, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 35, "len": 1},
+                            "unparse": "}"}}
+                    ]}}
+            ]}},
+        {"newline": {
+            "span": {"start": 36, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 37, "len": 17},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 37, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 42, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 43, "len": 3},
+                    "value": "FOO"}},
+                {"sigil": {
+                    "span": {"start": 46, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 47, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 48, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 48, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 50, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 51, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 52, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 53, "len": 1},
+                    "value": 1}}
+            ]}},
+        {"newline": {
+            "span": {"start": 54, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 55, "len": 1},
+            "unparse": "\n"}},
+        {"decorator": {
+            "span": {"start": 56, "len": 6},
+            "child-nodes": [
+                {"sigil": {
+                    "span": {"start": 56, "len": 1},
+                    "unparse": "@"}},
+                {"option": {
+                    "span": {"start": 57, "len": 5},
+                    "child-nodes": [
+                        {"sigil": {
+                            "span": {"start": 57, "len": 1},
+                            "unparse": "{"}},
+                        {"space": {
+                            "span": {"start": 58, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 59, "len": 1},
+                            "value": "a"}},
+                        {"space": {
+                            "span": {"start": 60, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 61, "len": 1},
+                            "unparse": "}"}}
+                    ]}}
+            ]}},
+        {"newline": {
+            "span": {"start": 62, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 63, "len": 19},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 63, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 68, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 69, "len": 5},
+                    "value": "FOO_2"}},
+                {"sigil": {
+                    "span": {"start": 74, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 75, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 76, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 76, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 78, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 79, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 80, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 81, "len": 1},
+                    "value": 1}}
+            ]}},
+        {"newline": {
+            "span": {"start": 82, "len": 1},
+            "unparse": "\n"}}
+    ]}}

@@ -1,0 +1,137 @@
+{
+	"expect_ok": [
+		{
+			"source": "0",
+			"tokens": [["INT_LIT", "0"]]
+		},
+		{
+			"source": "0 1",
+			"tokens": [
+				["INT_LIT", "0"],
+				["SPACE", " "],
+				["INT_LIT", "1"]
+			]
+		},
+		{
+			"source": "42",
+			"tokens": [["INT_LIT", "42"]]
+		},
+		{
+			"source": "4_2",
+			"tokens": [["INT_LIT", "4_2"]]
+		},
+		{
+			"source": "-42",
+			"tokens": [["INT_LIT", "-42"]]
+		},
+		{
+			"source": "0b0",
+			"tokens": [["BIN_INT_LIT", "0b0"]]
+		},
+		{
+			"source": "0b00",
+			"tokens": [["BIN_INT_LIT", "0b00"]]
+		},
+		{
+			"source": "0b10",
+			"tokens": [["BIN_INT_LIT", "0b10"]]
+		},
+		{
+			"source": "-0b10",
+			"tokens": [["BIN_INT_LIT", "-0b10"]]
+		},
+		{
+			"source": "0o0",
+			"tokens": [["OCT_INT_LIT", "0o0"]]
+		},
+		{
+			"source": "0o00",
+			"tokens": [["OCT_INT_LIT", "0o00"]]
+		},
+		{
+			"source": "0o1234567",
+			"tokens": [["OCT_INT_LIT", "0o1234567"]]
+		},
+		{
+			"source": "-0o1234567",
+			"tokens": [["OCT_INT_LIT", "-0o1234567"]]
+		},
+		{
+			"source": "0d0",
+			"tokens": [["DEC_INT_LIT", "0d0"]]
+		},
+		{
+			"source": "0d00",
+			"tokens": [["DEC_INT_LIT", "0d00"]]
+		},
+		{
+			"source": "0d123456789",
+			"tokens": [["DEC_INT_LIT", "0d123456789"]]
+		},
+		{
+			"source": "-0d123456789",
+			"tokens": [["DEC_INT_LIT", "-0d123456789"]]
+		},
+		{
+			"source": "0x0",
+			"tokens": [["HEX_INT_LIT", "0x0"]]
+		},
+		{
+			"source": "0x00",
+			"tokens": [["HEX_INT_LIT", "0x00"]]
+		},
+		{
+			"source": "0x123456789abcdef",
+			"tokens": [["HEX_INT_LIT", "0x123456789abcdef"]]
+		},
+		{
+			"source": "-0x123456789abcdef",
+			"tokens": [["HEX_INT_LIT", "-0x123456789abcdef"]]
+		},
+		{
+			"source": "0x123456789ABCDEF",
+			"tokens": [["HEX_INT_LIT", "0x123456789ABCDEF"]]
+		},
+		{
+			"source": "-0x123456789ABCDEF",
+			"tokens": [["HEX_INT_LIT", "-0x123456789ABCDEF"]]
+		}
+	],
+	"expect_err": [
+		{
+			"source": "-",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 1}
+		},
+		{
+			"source": "-0",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 2}
+		},
+		{
+			"source": "00",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 2}
+		},
+		{
+			"source": "01",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 2}
+		},
+		{
+			"source": "0a0",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 3}
+		},
+		{
+			"source": "1a",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 2}
+		},
+		{
+			"source": "1g",
+			"error": "invalid_int_lit",
+			"error_span": {"start": 0, "len": 2}
+		}
+	]
+}

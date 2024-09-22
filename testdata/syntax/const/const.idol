@@ -1,0 +1,6 @@
+namespace "idol.test/ns"
+
+const FOO_FALSE: bool = .false
+const FOO_TRUE: bool = .true
+
+const FOO_INT: u8 = 1

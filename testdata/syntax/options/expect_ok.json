@@ -1,0 +1,184 @@
+{"file": {
+    "span": {"start": 0, "len": 116},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"options": {
+            "span": {"start": 26, "len": 23},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 7},
+                    "unparse": "options"}},
+                {"space": {
+                    "span": {"start": 33, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 34, "len": 1},
+                    "unparse": "{"}},
+                {"space": {
+                    "span": {"start": 35, "len": 1},
+                    "unparse": " "}},
+                {"options-option": {
+                    "span": {"start": 36, "len": 5},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 36, "len": 1},
+                            "value": "a"}},
+                        {"space": {
+                            "span": {"start": 37, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 38, "len": 1},
+                            "unparse": "="}},
+                        {"space": {
+                            "span": {"start": 39, "len": 1},
+                            "unparse": " "}},
+                        {"int-lit": {
+                            "span": {"start": 40, "len": 1},
+                            "value": 1}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 41, "len": 1},
+                    "unparse": " "}},
+                {"options-option": {
+                    "span": {"start": 42, "len": 5},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 42, "len": 1},
+                            "value": "b"}},
+                        {"space": {
+                            "span": {"start": 43, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 44, "len": 1},
+                            "unparse": "="}},
+                        {"space": {
+                            "span": {"start": 45, "len": 1},
+                            "unparse": " "}},
+                        {"int-lit": {
+                            "span": {"start": 46, "len": 1},
+                            "value": 2}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 47, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 48, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 49, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 50, "len": 1},
+            "unparse": "\n"}},
+        {"decorator": {
+            "span": {"start": 51, "len": 40},
+            "child-nodes": [
+                {"sigil": {
+                    "span": {"start": 51, "len": 1},
+                    "unparse": "@"}},
+                {"options": {
+                    "span": {"start": 52, "len": 39},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 52, "len": 7},
+                            "unparse": "options"}},
+                        {"space": {
+                            "span": {"start": 59, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 60, "len": 1},
+                            "unparse": "{"}},
+                        {"space": {
+                            "span": {"start": 61, "len": 1},
+                            "unparse": " "}},
+                        {"options-option": {
+                            "span": {"start": 62, "len": 27},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 62, "len": 20},
+                                    "value": "preserves_decorators"}},
+                                {"space": {
+                                    "span": {"start": 82, "len": 1},
+                                    "unparse": " "}},
+                                {"sigil": {
+                                    "span": {"start": 83, "len": 1},
+                                    "unparse": "="}},
+                                {"space": {
+                                    "span": {"start": 84, "len": 1},
+                                    "unparse": " "}},
+                                {"ident": {
+                                    "span": {"start": 85, "len": 4},
+                                    "value": "true"}}
+                            ]}},
+                        {"space": {
+                            "span": {"start": 89, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 90, "len": 1},
+                            "unparse": "}"}}
+                    ]}}
+            ]}},
+        {"newline": {
+            "span": {"start": 91, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 92, "len": 23},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 92, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 97, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 98, "len": 3},
+                    "value": "FOO"}},
+                {"sigil": {
+                    "span": {"start": 101, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 102, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 103, "len": 4},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 103, "len": 4},
+                            "value": "bool"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 107, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 108, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 109, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 110, "len": 5},
+                    "value": "false"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 115, "len": 1},
+            "unparse": "\n"}}
+    ]}}

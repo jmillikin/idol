@@ -1,0 +1,27 @@
+{
+	"expect_ok": [
+		{
+			"source": "abc",
+			"tokens": [["IDENT", "abc"]]
+		},
+		{
+			"source": "ABC",
+			"tokens": [["IDENT", "ABC"]]
+		},
+		{
+			"source": "abc_def",
+			"tokens": [["IDENT", "abc_def"]]
+		},
+		{
+			"source": "abc_123",
+			"tokens": [["IDENT", "abc_123"]]
+		}
+	],
+	"expect_err": [
+		{
+			"source": "a_",
+			"error": "invalid_ident",
+			"error_span": {"start": 0, "len": 2}
+		}
+	]
+}

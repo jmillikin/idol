@@ -1,0 +1,4 @@
+namespace "idol.test/ns"
+import "example.test/ns" as example_ns
+
+options: example_ns.Foo { a = 1 b = 2 }

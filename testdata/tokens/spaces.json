@@ -1,0 +1,40 @@
+{
+	"expect_ok": [
+		{
+			"source": "\u0020",
+			"tokens": [["SPACE", "\u0020"]]
+		},
+		{
+			"source": "\u0020\u0020",
+			"tokens": [["SPACE", "\u0020\u0020"]]
+		},
+		{
+			"source": "\u0009",
+			"tokens": [["SPACE", "\u0009"]]
+		},
+		{
+			"source": "\u0009\u0009",
+			"tokens": [["SPACE", "\u0009\u0009"]]
+		},
+		{
+			"source": "\u0020\u0009",
+			"tokens": [["SPACE", "\u0020\u0009"]]
+		},
+		{
+			"source": "\u0009\u0020",
+			"tokens": [["SPACE", "\u0009\u0020"]]
+		},
+		{
+			"source": "\u00A0",
+			"tokens": [["SPACE", "\u00A0"]]
+		},
+		{
+			"source": "\u0020\u00A0",
+			"tokens": [["SPACE", "\u0020\u00A0"]]
+		},
+		{
+			"source": "\u00A0\u0020",
+			"tokens": [["SPACE", "\u00A0\u0020"]]
+		}
+	]
+}

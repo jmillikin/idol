@@ -1,0 +1,28 @@
+{
+	"expect_ok": [
+		{
+			"source": "#",
+			"tokens": [["COMMENT", "#"]]
+		},
+		{
+			"source": "# ",
+			"tokens": [["COMMENT", "# "]]
+		},
+		{
+			"source": "##",
+			"tokens": [["COMMENT", "##"]]
+		},
+		{
+			"source": "# ",
+			"tokens": [["COMMENT", "# "]]
+		},
+		{
+			"source": "# a comment",
+			"tokens": [["COMMENT", "# a comment"]]
+		},
+		{
+			"source": "## a doc comment",
+			"tokens": [["COMMENT", "## a doc comment"]]
+		}
+	]
+}

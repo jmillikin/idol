@@ -1,0 +1,44 @@
+{
+	"expect_ok": [
+		{
+			"source": "@",
+			"tokens": [["AT", "@"]]
+		},
+		{
+			"source": ":",
+			"tokens": [["COLON", ":"]]
+		},
+		{
+			"source": ".",
+			"tokens": [["DOT", "."]]
+		},
+		{
+			"source": "=",
+			"tokens": [["EQ", "="]]
+		},
+		{
+			"source": "{",
+			"tokens": [["OPEN_CURL", "{"]]
+		},
+		{
+			"source": "}",
+			"tokens": [["CLOSE_CURL", "}"]]
+		},
+		{
+			"source": "(",
+			"tokens": [["OPEN_PAREN", "("]]
+		},
+		{
+			"source": ")",
+			"tokens": [["CLOSE_PAREN", ")"]]
+		},
+		{
+			"source": "[",
+			"tokens": [["OPEN_SQUARE", "["]]
+		},
+		{
+			"source": "]",
+			"tokens": [["CLOSE_SQUARE", "]"]]
+		}
+	]
+}

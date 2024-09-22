@@ -1,0 +1,7 @@
+namespace "idol.test/ns"
+
+union Foo {
+	a@1: u8
+	b@2: u16
+}
+

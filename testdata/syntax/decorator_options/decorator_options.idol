@@ -1,0 +1,4 @@
+namespace "idol.test/ns"
+
+@options { a = 1 }
+const FOO: u8 = 1

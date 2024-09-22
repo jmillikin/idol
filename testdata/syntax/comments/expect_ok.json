@@ -1,0 +1,118 @@
+{"file": {
+    "span": {"start": 0, "len": 165},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 26, "len": 16},
+            "text": "# normal comment"}},
+        {"newline": {
+            "span": {"start": 42, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 43, "len": 13},
+            "text": "# second line"}},
+        {"newline": {
+            "span": {"start": 56, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 57, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 58, "len": 18},
+            "text": "# after line break"}},
+        {"newline": {
+            "span": {"start": 76, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 77, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 78, "len": 2},
+            "text": "##"}},
+        {"newline": {
+            "span": {"start": 80, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 81, "len": 13},
+            "text": "# doc comment"}},
+        {"newline": {
+            "span": {"start": 94, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 95, "len": 28},
+            "text": "# second line of doc comment"}},
+        {"newline": {
+            "span": {"start": 123, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 124, "len": 2},
+            "text": "##"}},
+        {"newline": {
+            "span": {"start": 126, "len": 1},
+            "unparse": "\n"}},
+        {"comment": {
+            "span": {"start": 127, "len": 19},
+            "text": "# after doc comment"}},
+        {"newline": {
+            "span": {"start": 146, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 147, "len": 17},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 147, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 152, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 153, "len": 3},
+                    "value": "FOO"}},
+                {"sigil": {
+                    "span": {"start": 156, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 157, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 158, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 158, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 160, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 161, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 162, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 163, "len": 1},
+                    "value": 1}}
+            ]}},
+        {"newline": {
+            "span": {"start": 164, "len": 1},
+            "unparse": "\n"}}
+    ]}}

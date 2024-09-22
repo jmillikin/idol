@@ -1,0 +1,163 @@
+{"file": {
+    "span": {"start": 0, "len": 109},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 26, "len": 30},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 31, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 32, "len": 9},
+                    "value": "FOO_FALSE"}},
+                {"sigil": {
+                    "span": {"start": 41, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 42, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 43, "len": 4},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 43, "len": 4},
+                            "value": "bool"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 47, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 48, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 49, "len": 1},
+                    "unparse": " "}},
+                {"enum-ref": {
+                    "span": {"start": 50, "len": 6},
+                    "child-nodes": [
+                        {"sigil": {
+                            "span": {"start": 50, "len": 1},
+                            "unparse": "."}},
+                        {"ident": {
+                            "span": {"start": 51, "len": 5},
+                            "value": "false"}}
+                    ]}}
+            ]}},
+        {"newline": {
+            "span": {"start": 56, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 57, "len": 28},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 57, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 62, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 63, "len": 8},
+                    "value": "FOO_TRUE"}},
+                {"sigil": {
+                    "span": {"start": 71, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 72, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 73, "len": 4},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 73, "len": 4},
+                            "value": "bool"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 77, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 78, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 79, "len": 1},
+                    "unparse": " "}},
+                {"enum-ref": {
+                    "span": {"start": 80, "len": 5},
+                    "child-nodes": [
+                        {"sigil": {
+                            "span": {"start": 80, "len": 1},
+                            "unparse": "."}},
+                        {"ident": {
+                            "span": {"start": 81, "len": 4},
+                            "value": "true"}}
+                    ]}}
+            ]}},
+        {"newline": {
+            "span": {"start": 85, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 86, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 87, "len": 21},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 87, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 92, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 93, "len": 7},
+                    "value": "FOO_INT"}},
+                {"sigil": {
+                    "span": {"start": 100, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 101, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 102, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 102, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 104, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 105, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 106, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 107, "len": 1},
+                    "value": 1}}
+            ]}},
+        {"newline": {
+            "span": {"start": 108, "len": 1},
+            "unparse": "\n"}}
+    ]}}

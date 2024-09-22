@@ -1,0 +1,820 @@
+{"file": {
+    "span": {"start": 0, "len": 580},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 26, "len": 22},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 31, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 32, "len": 8},
+                    "value": "INT_U8_A"}},
+                {"sigil": {
+                    "span": {"start": 40, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 41, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 42, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 42, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 44, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 45, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 46, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 47, "len": 1},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 48, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 49, "len": 23},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 49, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 54, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 55, "len": 8},
+                    "value": "INT_U8_B"}},
+                {"sigil": {
+                    "span": {"start": 63, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 64, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 65, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 65, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 67, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 68, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 69, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 70, "len": 2},
+                    "value": 12}}
+            ]}},
+        {"newline": {
+            "span": {"start": 72, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 73, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 74, "len": 28},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 74, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 79, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 80, "len": 12},
+                    "value": "INT_U8_BIN_A"}},
+                {"sigil": {
+                    "span": {"start": 92, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 93, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 94, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 94, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 96, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 97, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 98, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 99, "len": 3},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 102, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 103, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 103, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 108, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 109, "len": 12},
+                    "value": "INT_U8_BIN_B"}},
+                {"sigil": {
+                    "span": {"start": 121, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 122, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 123, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 123, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 125, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 126, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 127, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 128, "len": 4},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 132, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 133, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 133, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 138, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 139, "len": 12},
+                    "value": "INT_U8_BIN_C"}},
+                {"sigil": {
+                    "span": {"start": 151, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 152, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 153, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 153, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 155, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 156, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 157, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 158, "len": 4},
+                    "value": 2}}
+            ]}},
+        {"newline": {
+            "span": {"start": 162, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 163, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 164, "len": 28},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 164, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 169, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 170, "len": 12},
+                    "value": "INT_U8_OCT_A"}},
+                {"sigil": {
+                    "span": {"start": 182, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 183, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 184, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 184, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 186, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 187, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 188, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 189, "len": 3},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 192, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 193, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 193, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 198, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 199, "len": 12},
+                    "value": "INT_U8_OCT_B"}},
+                {"sigil": {
+                    "span": {"start": 211, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 212, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 213, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 213, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 215, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 216, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 217, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 218, "len": 4},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 222, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 223, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 223, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 228, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 229, "len": 12},
+                    "value": "INT_U8_OCT_C"}},
+                {"sigil": {
+                    "span": {"start": 241, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 242, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 243, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 243, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 245, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 246, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 247, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 248, "len": 4},
+                    "value": 10}}
+            ]}},
+        {"newline": {
+            "span": {"start": 252, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 253, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 254, "len": 28},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 254, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 259, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 260, "len": 12},
+                    "value": "INT_U8_DEC_A"}},
+                {"sigil": {
+                    "span": {"start": 272, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 273, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 274, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 274, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 276, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 277, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 278, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 279, "len": 3},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 282, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 283, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 283, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 288, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 289, "len": 12},
+                    "value": "INT_U8_DEC_B"}},
+                {"sigil": {
+                    "span": {"start": 301, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 302, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 303, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 303, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 305, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 306, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 307, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 308, "len": 4},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 312, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 313, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 313, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 318, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 319, "len": 12},
+                    "value": "INT_U8_DEC_C"}},
+                {"sigil": {
+                    "span": {"start": 331, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 332, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 333, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 333, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 335, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 336, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 337, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 338, "len": 4},
+                    "value": 12}}
+            ]}},
+        {"newline": {
+            "span": {"start": 342, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 343, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 344, "len": 28},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 344, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 349, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 350, "len": 12},
+                    "value": "INT_U8_HEX_A"}},
+                {"sigil": {
+                    "span": {"start": 362, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 363, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 364, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 364, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 366, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 367, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 368, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 369, "len": 3},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 372, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 373, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 373, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 378, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 379, "len": 12},
+                    "value": "INT_U8_HEX_B"}},
+                {"sigil": {
+                    "span": {"start": 391, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 392, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 393, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 393, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 395, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 396, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 397, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 398, "len": 4},
+                    "value": 0}}
+            ]}},
+        {"newline": {
+            "span": {"start": 402, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 403, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 403, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 408, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 409, "len": 12},
+                    "value": "INT_U8_HEX_C"}},
+                {"sigil": {
+                    "span": {"start": 421, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 422, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 423, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 423, "len": 2},
+                            "value": "u8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 425, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 426, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 427, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 428, "len": 4},
+                    "value": 18}}
+            ]}},
+        {"newline": {
+            "span": {"start": 432, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 433, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 434, "len": 25},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 434, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 439, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 440, "len": 9},
+                    "value": "INT_I8_01"}},
+                {"sigil": {
+                    "span": {"start": 449, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 450, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 451, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 451, "len": 2},
+                            "value": "i8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 453, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 454, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 455, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 456, "len": 3},
+                    "value": -12}}
+            ]}},
+        {"newline": {
+            "span": {"start": 459, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 460, "len": 27},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 460, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 465, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 466, "len": 9},
+                    "value": "INT_I8_02"}},
+                {"sigil": {
+                    "span": {"start": 475, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 476, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 477, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 477, "len": 2},
+                            "value": "i8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 479, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 480, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 481, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 482, "len": 5},
+                    "value": -10}}
+            ]}},
+        {"newline": {
+            "span": {"start": 487, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 488, "len": 27},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 488, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 493, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 494, "len": 9},
+                    "value": "INT_I8_03"}},
+                {"sigil": {
+                    "span": {"start": 503, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 504, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 505, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 505, "len": 2},
+                            "value": "i8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 507, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 508, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 509, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 510, "len": 5},
+                    "value": -12}}
+            ]}},
+        {"newline": {
+            "span": {"start": 515, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 516, "len": 27},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 516, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 521, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 522, "len": 9},
+                    "value": "INT_I8_04"}},
+                {"sigil": {
+                    "span": {"start": 531, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 532, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 533, "len": 2},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 533, "len": 2},
+                            "value": "i8"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 535, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 536, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 537, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 538, "len": 5},
+                    "value": -18}}
+            ]}},
+        {"newline": {
+            "span": {"start": 543, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 544, "len": 1},
+            "unparse": "\n"}},
+        {"const": {
+            "span": {"start": 545, "len": 34},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 545, "len": 5},
+                    "unparse": "const"}},
+                {"space": {
+                    "span": {"start": 550, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 551, "len": 10},
+                    "value": "INT_U64_01"}},
+                {"sigil": {
+                    "span": {"start": 561, "len": 1},
+                    "unparse": ":"}},
+                {"space": {
+                    "span": {"start": 562, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 563, "len": 3},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 563, "len": 3},
+                            "value": "u64"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 566, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 567, "len": 1},
+                    "unparse": "="}},
+                {"space": {
+                    "span": {"start": 568, "len": 1},
+                    "unparse": " "}},
+                {"int-lit": {
+                    "span": {"start": 569, "len": 10},
+                    "value": 1234567890}}
+            ]}},
+        {"newline": {
+            "span": {"start": 579, "len": 1},
+            "unparse": "\n"}}
+    ]}}

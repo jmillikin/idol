@@ -1,0 +1,5 @@
+namespace "idol.test/ns"
+import "example.test/ns1" as example_ns
+import "example.test/ns2" { Bar }
+
+export { example_ns.Foo Bar }

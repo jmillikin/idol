@@ -1,0 +1,43 @@
+{
+	"expect_ok": [
+		{
+			"source": "\u0022\u0022",
+			"tokens": [["TEXT_LIT", "\u0022\u0022"]]
+		},
+		{
+			"source": "\u0022abc\u0022",
+			"tokens": [["TEXT_LIT", "\u0022abc\u0022"]]
+		},
+		{
+			"source": "\u0022(\u005Cn)\u0022",
+			"tokens": [["TEXT_LIT", "\u0022(\u005Cn)\u0022"]]
+		},
+		{
+			"source": "\u0022(\u005C\u005C)\u0022",
+			"tokens": [["TEXT_LIT", "\u0022(\u005C\u005C)\u0022"]]
+		},
+		{
+			"source": "\u0022(\u005C\u0022)\u0022",
+			"tokens": [["TEXT_LIT", "\u0022(\u005C\u0022)\u0022"]]
+		},
+		{
+			"source": "\u0022(\u005Cx20)\u0022",
+			"tokens": [["TEXT_LIT", "\u0022(\u005Cx20)\u0022"]]
+		},
+		{
+			"source": "\u0022(\u005Cu{0020})\u0022",
+			"tokens": [["TEXT_LIT", "\u0022(\u005Cu{0020})\u0022"]]
+		},
+		{
+			"source": "\u0022\u3042bc\u0022",
+			"tokens": [["TEXT_LIT", "\u0022\u3042bc\u0022"]]
+		}
+	],
+	"expect_err": [
+		{
+			"source": "\u0022",
+			"error": "invalid_text_lit",
+			"error_span": {"start": 0, "len": 1}
+		}
+	]
+}

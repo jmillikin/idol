@@ -1,0 +1,89 @@
+{"file": {
+    "span": {"start": 0, "len": 84},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"import": {
+            "span": {"start": 25, "len": 32},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 25, "len": 6},
+                    "unparse": "import"}},
+                {"space": {
+                    "span": {"start": 31, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 32, "len": 17},
+                    "value": "example.test/ns"}},
+                {"space": {
+                    "span": {"start": 49, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 50, "len": 1},
+                    "unparse": "{"}},
+                {"space": {
+                    "span": {"start": 51, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 52, "len": 3},
+                    "value": "Foo"}},
+                {"space": {
+                    "span": {"start": 55, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 56, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 57, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 58, "len": 1},
+            "unparse": "\n"}},
+        {"export-as": {
+            "span": {"start": 59, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 59, "len": 6},
+                    "unparse": "export"}},
+                {"space": {
+                    "span": {"start": 65, "len": 1},
+                    "unparse": " "}},
+                {"type-name": {
+                    "span": {"start": 66, "len": 3},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 66, "len": 3},
+                            "value": "Foo"}}
+                    ]}},
+                {"space": {
+                    "span": {"start": 69, "len": 1},
+                    "unparse": " "}},
+                {"keyword": {
+                    "span": {"start": 70, "len": 2},
+                    "unparse": "as"}},
+                {"space": {
+                    "span": {"start": 72, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 73, "len": 10},
+                    "value": "RenamedFoo"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 83, "len": 1},
+            "unparse": "\n"}}
+    ]}}

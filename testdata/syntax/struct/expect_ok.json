@@ -1,0 +1,111 @@
+{"file": {
+    "span": {"start": 0, "len": 56},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"struct": {
+            "span": {"start": 26, "len": 29},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 6},
+                    "unparse": "struct"}},
+                {"space": {
+                    "span": {"start": 32, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 33, "len": 3},
+                    "value": "Foo"}},
+                {"space": {
+                    "span": {"start": 36, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 37, "len": 1},
+                    "unparse": "{"}},
+                {"newline": {
+                    "span": {"start": 38, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 39, "len": 1},
+                    "unparse": "\t"}},
+                {"struct-field": {
+                    "span": {"start": 40, "len": 5},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 40, "len": 1},
+                            "value": "a"}},
+                        {"sigil": {
+                            "span": {"start": 41, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 42, "len": 1},
+                            "unparse": " "}},
+                        {"field-type": {
+                            "span": {"start": 43, "len": 2},
+                            "child-nodes": [
+                                {"type-name": {
+                                    "span": {"start": 43, "len": 2},
+                                    "child-nodes": [
+                                        {"ident": {
+                                            "span": {"start": 43, "len": 2},
+                                            "value": "u8"}}
+                                    ]}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 45, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 46, "len": 1},
+                    "unparse": "\t"}},
+                {"struct-field": {
+                    "span": {"start": 47, "len": 6},
+                    "child-nodes": [
+                        {"ident": {
+                            "span": {"start": 47, "len": 1},
+                            "value": "b"}},
+                        {"sigil": {
+                            "span": {"start": 48, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 49, "len": 1},
+                            "unparse": " "}},
+                        {"field-type": {
+                            "span": {"start": 50, "len": 3},
+                            "child-nodes": [
+                                {"type-name": {
+                                    "span": {"start": 50, "len": 3},
+                                    "child-nodes": [
+                                        {"ident": {
+                                            "span": {"start": 50, "len": 3},
+                                            "value": "u16"}}
+                                    ]}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 53, "len": 1},
+                    "unparse": "\n"}},
+                {"sigil": {
+                    "span": {"start": 54, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 55, "len": 1},
+            "unparse": "\n"}}
+    ]}}

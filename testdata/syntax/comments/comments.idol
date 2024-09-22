@@ -1,0 +1,13 @@
+namespace "idol.test/ns"
+
+# normal comment
+# second line
+
+# after line break
+
+##
+# doc comment
+# second line of doc comment
+##
+# after doc comment
+const FOO: u8 = 1

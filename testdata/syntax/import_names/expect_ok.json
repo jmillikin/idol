@@ -1,0 +1,63 @@
+{"file": {
+    "span": {"start": 0, "len": 63},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"import": {
+            "span": {"start": 26, "len": 36},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 6},
+                    "unparse": "import"}},
+                {"space": {
+                    "span": {"start": 32, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 33, "len": 17},
+                    "value": "example.test/ns"}},
+                {"space": {
+                    "span": {"start": 50, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 51, "len": 1},
+                    "unparse": "{"}},
+                {"space": {
+                    "span": {"start": 52, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 53, "len": 3},
+                    "value": "foo"}},
+                {"space": {
+                    "span": {"start": 56, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 57, "len": 3},
+                    "value": "bar"}},
+                {"space": {
+                    "span": {"start": 60, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 61, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 62, "len": 1},
+            "unparse": "\n"}}
+    ]}}

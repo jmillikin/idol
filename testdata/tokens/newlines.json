@@ -1,0 +1,19 @@
+{
+	"expect_ok": [
+		{
+			"source": "\u000A",
+			"tokens": [["NEWLINE", "\u000A"]]
+		},
+		{
+			"source": "\u000D\u000A",
+			"tokens": [["NEWLINE", "\u000D\u000A"]]
+		}
+	],
+	"expect_err": [
+		{
+			"source": "\u000D",
+			"error": "unpaired_carriage_return",
+			"error_span": {"start": 0, "len": 1}
+		}
+	]
+}

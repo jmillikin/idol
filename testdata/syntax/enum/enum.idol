@@ -1,0 +1,6 @@
+namespace "idol.test/ns"
+
+enum Foo: u32 {
+	A = 1
+	B = 2
+}
