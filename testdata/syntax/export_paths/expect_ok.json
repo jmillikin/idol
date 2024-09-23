@@ -98,7 +98,7 @@
                     "span": {"start": 108, "len": 1},
                     "unparse": " "}},
                 {"type-name": {
-                    "span": {"start": 109, "len": 10},
+                    "span": {"start": 109, "len": 14},
                     "child-nodes": [
                         {"ident": {
                             "span": {"start": 109, "len": 10},
