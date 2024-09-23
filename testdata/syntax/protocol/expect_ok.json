@@ -1,0 +1,517 @@
+{"schema": {
+    "span": {"start": 0, "len": 389},
+    "child-nodes": [
+        {"namespace": {
+            "span": {"start": 0, "len": 24},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 0, "len": 9},
+                    "unparse": "namespace"}},
+                {"space": {
+                    "span": {"start": 9, "len": 1},
+                    "unparse": " "}},
+                {"text-lit": {
+                    "span": {"start": 10, "len": 14},
+                    "value": "idol.test/ns"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 24, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 25, "len": 1},
+            "unparse": "\n"}},
+        {"protocol": {
+            "span": {"start": 26, "len": 263},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 26, "len": 8},
+                    "unparse": "protocol"}},
+                {"space": {
+                    "span": {"start": 34, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 35, "len": 17},
+                    "value": "Protocol_WithTags"}},
+                {"space": {
+                    "span": {"start": 52, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 53, "len": 1},
+                    "unparse": "{"}},
+                {"newline": {
+                    "span": {"start": 54, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 55, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-rpc": {
+                    "span": {"start": 56, "len": 36},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 56, "len": 3},
+                            "unparse": "rpc"}},
+                        {"space": {
+                            "span": {"start": 59, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 60, "len": 5},
+                            "value": "Rpc_A"}},
+                        {"tag": {
+                            "span": {"start": 65, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 65, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 66, "len": 1},
+                                    "value": 1}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 67, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 68, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 68, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 78, "len": 1},
+                            "unparse": ")"}},
+                        {"sigil": {
+                            "span": {"start": 79, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 80, "len": 1},
+                            "unparse": " "}},
+                        {"type-name": {
+                            "span": {"start": 81, "len": 11},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 81, "len": 11},
+                                    "value": "RpcResponse"}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 92, "len": 1},
+                    "unparse": "\n"}},
+                {"newline": {
+                    "span": {"start": 93, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 94, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-rpc": {
+                    "span": {"start": 95, "len": 43},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 95, "len": 3},
+                            "unparse": "rpc"}},
+                        {"space": {
+                            "span": {"start": 98, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 99, "len": 5},
+                            "value": "Rpc_B"}},
+                        {"tag": {
+                            "span": {"start": 104, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 104, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 105, "len": 1},
+                                    "value": 2}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 106, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 107, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 107, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}},
+                        {"space": {
+                            "span": {"start": 117, "len": 1},
+                            "unparse": " "}},
+                        {"keyword": {
+                            "span": {"start": 118, "len": 6},
+                            "unparse": "stream"}},
+                        {"sigil": {
+                            "span": {"start": 124, "len": 1},
+                            "unparse": ")"}},
+                        {"sigil": {
+                            "span": {"start": 125, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 126, "len": 1},
+                            "unparse": " "}},
+                        {"type-name": {
+                            "span": {"start": 127, "len": 11},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 127, "len": 11},
+                                    "value": "RpcResponse"}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 138, "len": 1},
+                    "unparse": "\n"}},
+                {"newline": {
+                    "span": {"start": 139, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 140, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-rpc": {
+                    "span": {"start": 141, "len": 38},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 141, "len": 3},
+                            "unparse": "rpc"}},
+                        {"space": {
+                            "span": {"start": 144, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 145, "len": 5},
+                            "value": "Rpc_C"}},
+                        {"tag": {
+                            "span": {"start": 150, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 150, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 151, "len": 1},
+                                    "value": 3}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 152, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 153, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 153, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 163, "len": 1},
+                            "unparse": ")"}},
+                        {"sigil": {
+                            "span": {"start": 164, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 165, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 166, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 167, "len": 11},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 167, "len": 11},
+                                    "value": "RpcResponse"}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 178, "len": 1},
+                            "unparse": ")"}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 179, "len": 1},
+                    "unparse": "\n"}},
+                {"newline": {
+                    "span": {"start": 180, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 181, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-rpc": {
+                    "span": {"start": 182, "len": 45},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 182, "len": 3},
+                            "unparse": "rpc"}},
+                        {"space": {
+                            "span": {"start": 185, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 186, "len": 5},
+                            "value": "Rpc_D"}},
+                        {"tag": {
+                            "span": {"start": 191, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 191, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 192, "len": 1},
+                                    "value": 4}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 193, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 194, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 194, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 204, "len": 1},
+                            "unparse": ")"}},
+                        {"sigil": {
+                            "span": {"start": 205, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 206, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 207, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 208, "len": 11},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 208, "len": 11},
+                                    "value": "RpcResponse"}}
+                            ]}},
+                        {"space": {
+                            "span": {"start": 219, "len": 1},
+                            "unparse": " "}},
+                        {"keyword": {
+                            "span": {"start": 220, "len": 6},
+                            "unparse": "stream"}},
+                        {"sigil": {
+                            "span": {"start": 226, "len": 1},
+                            "unparse": ")"}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 227, "len": 1},
+                    "unparse": "\n"}},
+                {"newline": {
+                    "span": {"start": 228, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 229, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-rpc": {
+                    "span": {"start": 230, "len": 27},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 230, "len": 3},
+                            "unparse": "rpc"}},
+                        {"space": {
+                            "span": {"start": 233, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 234, "len": 5},
+                            "value": "Rpc_E"}},
+                        {"tag": {
+                            "span": {"start": 239, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 239, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 240, "len": 1},
+                                    "value": 5}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 241, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 242, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 242, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 252, "len": 1},
+                            "unparse": ")"}},
+                        {"sigil": {
+                            "span": {"start": 253, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 254, "len": 1},
+                            "unparse": " "}},
+                        {"sigil": {
+                            "span": {"start": 255, "len": 1},
+                            "unparse": "("}},
+                        {"sigil": {
+                            "span": {"start": 256, "len": 1},
+                            "unparse": ")"}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 257, "len": 1},
+                    "unparse": "\n"}},
+                {"newline": {
+                    "span": {"start": 258, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 259, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-event": {
+                    "span": {"start": 260, "len": 27},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 260, "len": 5},
+                            "unparse": "event"}},
+                        {"space": {
+                            "span": {"start": 265, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 266, "len": 7},
+                            "value": "Event_A"}},
+                        {"tag": {
+                            "span": {"start": 273, "len": 2},
+                            "child-nodes": [
+                                {"sigil": {
+                                    "span": {"start": 273, "len": 1},
+                                    "unparse": "@"}},
+                                {"int-lit": {
+                                    "span": {"start": 274, "len": 1},
+                                    "value": 6}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 275, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 276, "len": 1},
+                            "unparse": " "}},
+                        {"type-name": {
+                            "span": {"start": 277, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 277, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 287, "len": 1},
+                    "unparse": "\n"}},
+                {"sigil": {
+                    "span": {"start": 288, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 289, "len": 1},
+            "unparse": "\n"}},
+        {"newline": {
+            "span": {"start": 290, "len": 1},
+            "unparse": "\n"}},
+        {"protocol": {
+            "span": {"start": 291, "len": 97},
+            "child-nodes": [
+                {"keyword": {
+                    "span": {"start": 291, "len": 8},
+                    "unparse": "protocol"}},
+                {"space": {
+                    "span": {"start": 299, "len": 1},
+                    "unparse": " "}},
+                {"ident": {
+                    "span": {"start": 300, "len": 20},
+                    "value": "Protocol_WithoutTags"}},
+                {"space": {
+                    "span": {"start": 320, "len": 1},
+                    "unparse": " "}},
+                {"sigil": {
+                    "span": {"start": 321, "len": 1},
+                    "unparse": "{"}},
+                {"newline": {
+                    "span": {"start": 322, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 323, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-rpc": {
+                    "span": {"start": 324, "len": 34},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 324, "len": 3},
+                            "unparse": "rpc"}},
+                        {"space": {
+                            "span": {"start": 327, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 328, "len": 5},
+                            "value": "Rpc_A"}},
+                        {"sigil": {
+                            "span": {"start": 333, "len": 1},
+                            "unparse": "("}},
+                        {"type-name": {
+                            "span": {"start": 334, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 334, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}},
+                        {"sigil": {
+                            "span": {"start": 344, "len": 1},
+                            "unparse": ")"}},
+                        {"sigil": {
+                            "span": {"start": 345, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 346, "len": 1},
+                            "unparse": " "}},
+                        {"type-name": {
+                            "span": {"start": 347, "len": 11},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 347, "len": 11},
+                                    "value": "RpcResponse"}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 358, "len": 1},
+                    "unparse": "\n"}},
+                {"newline": {
+                    "span": {"start": 359, "len": 1},
+                    "unparse": "\n"}},
+                {"space": {
+                    "span": {"start": 360, "len": 1},
+                    "unparse": "\t"}},
+                {"protocol-event": {
+                    "span": {"start": 361, "len": 25},
+                    "child-nodes": [
+                        {"keyword": {
+                            "span": {"start": 361, "len": 5},
+                            "unparse": "event"}},
+                        {"space": {
+                            "span": {"start": 366, "len": 1},
+                            "unparse": " "}},
+                        {"ident": {
+                            "span": {"start": 367, "len": 7},
+                            "value": "Event_A"}},
+                        {"sigil": {
+                            "span": {"start": 374, "len": 1},
+                            "unparse": ":"}},
+                        {"space": {
+                            "span": {"start": 375, "len": 1},
+                            "unparse": " "}},
+                        {"type-name": {
+                            "span": {"start": 376, "len": 10},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 376, "len": 10},
+                                    "value": "RpcRequest"}}
+                            ]}}
+                    ]}},
+                {"newline": {
+                    "span": {"start": 386, "len": 1},
+                    "unparse": "\n"}},
+                {"sigil": {
+                    "span": {"start": 387, "len": 1},
+                    "unparse": "}"}}
+            ]}},
+        {"newline": {
+            "span": {"start": 388, "len": 1},
+            "unparse": "\n"}}
+    ]}}
