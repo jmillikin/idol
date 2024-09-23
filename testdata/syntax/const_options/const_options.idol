@@ -1,0 +1,4 @@
+namespace "idol.test/ns"
+
+@options { abc = 123 }
+const FOO: bool = .true

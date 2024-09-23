@@ -1,0 +1,9 @@
+namespace "idol.test/ns"
+
+@options { abc = 123 }
+union Foo {
+	a@1: u8
+	@options { def = 456 }
+	b@2: u16
+}
+

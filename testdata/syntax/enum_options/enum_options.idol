@@ -1,0 +1,8 @@
+namespace "idol.test/ns"
+
+@options { abc = 123 }
+enum Foo: u32 {
+	A = 1
+	@options { def = 456 }
+	B = 2
+}
