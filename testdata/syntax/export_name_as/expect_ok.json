@@ -54,7 +54,7 @@
         {"newline": {
             "span": {"start": 58, "len": 1},
             "unparse": "\n"}},
-        {"export-as": {
+        {"export": {
             "span": {"start": 59, "len": 24},
             "child-nodes": [
                 {"keyword": {

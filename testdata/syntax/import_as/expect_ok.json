@@ -20,7 +20,7 @@
         {"newline": {
             "span": {"start": 25, "len": 1},
             "unparse": "\n"}},
-        {"import-as": {
+        {"import": {
             "span": {"start": 26, "len": 38},
             "child-nodes": [
                 {"keyword": {

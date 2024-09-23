@@ -17,7 +17,7 @@
         {"newline": {
             "span": {"start": 24, "len": 1},
             "unparse": "\n"}},
-        {"import-as": {
+        {"import": {
             "span": {"start": 25, "len": 38},
             "child-nodes": [
                 {"keyword": {
@@ -48,7 +48,7 @@
         {"newline": {
             "span": {"start": 64, "len": 1},
             "unparse": "\n"}},
-        {"export-as": {
+        {"export": {
             "span": {"start": 65, "len": 35},
             "child-nodes": [
                 {"keyword": {
