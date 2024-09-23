@@ -1,0 +1,4 @@
+namespace "idol.test/ns"
+
+const I64_OK: i64 = -9223372036854775808
+const I64_TOO_BIG: i64 = -9223372036854775809

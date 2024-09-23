@@ -1,0 +1,4 @@
+{
+    "error": "expected_text_lit",
+    "error_span": {"start": 10, "len": 10}
+}

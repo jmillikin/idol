@@ -1,0 +1,4 @@
+namespace "idol.test/ns"
+
+@unknown
+const FOO: bool = .false

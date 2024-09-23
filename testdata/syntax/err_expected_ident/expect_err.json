@@ -1,0 +1,4 @@
+{
+    "error": "expected_ident",
+    "error_span": {"start": 32, "len": 1}
+}

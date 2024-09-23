@@ -1,0 +1,4 @@
+{
+    "error": "expected_sigil_colon",
+    "error_span": {"start": 36, "len": 3}
+}

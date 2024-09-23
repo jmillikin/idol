@@ -1,0 +1,4 @@
+{
+    "error": "expected_protocol_item",
+    "error_span": {"start": 42, "len": 3}
+}

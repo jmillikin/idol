@@ -1,0 +1,4 @@
+{
+    "error": "expected_sigil_close_paren",
+    "error_span": {"start": 64, "len": 1}
+}

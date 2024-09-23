@@ -1,0 +1,5 @@
+namespace "idol.test/ns"
+
+protocol Foo {
+	rpc Hello(HelloRequest: ()
+}

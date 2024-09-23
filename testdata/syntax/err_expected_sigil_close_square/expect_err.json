@@ -1,0 +1,4 @@
+{
+    "error": "expected_sigil_close_square",
+    "error_span": {"start": 47, "len": 1}
+}

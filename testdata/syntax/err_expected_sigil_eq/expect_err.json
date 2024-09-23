@@ -1,0 +1,4 @@
+{
+    "error": "expected_sigil_eq",
+    "error_span": {"start": 41, "len": 1}
+}

@@ -1,0 +1,4 @@
+{
+    "error": "expected_plain_int_lit",
+    "error_span": {"start": 43, "len": 3}
+}

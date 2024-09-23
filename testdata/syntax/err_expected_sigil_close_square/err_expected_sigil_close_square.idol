@@ -1,0 +1,6 @@
+namespace "idol.test/ns"
+
+struct Foo {
+	a: u8[1
+	b: u8
+}

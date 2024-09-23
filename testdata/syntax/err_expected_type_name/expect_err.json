@@ -1,0 +1,4 @@
+{
+    "error": "expected_type_name",
+    "error_span": {"start": 37, "len": 1}
+}

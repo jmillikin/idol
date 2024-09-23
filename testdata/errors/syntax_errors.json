@@ -1,0 +1,110 @@
+{
+	"unpaired_carriage_return": {
+		"code": 0,
+		"message": "unpaired_carriage_return"
+	},
+	"invalid_utf8": {
+		"code": 0,
+		"message": "invalid_utf8"
+	},
+	"unexpected_char": {
+		"code": 0,
+		"message": "unexpected_char"
+	},
+	"token_too_long": {
+		"code": 0,
+		"message": "token_too_long"
+	},
+	"invalid_int_lit": {
+		"code": 0,
+		"message": "invalid_int_lit"
+	},
+	"invalid_text_lit": {
+		"code": 0,
+		"message": "invalid_text_lit"
+	},
+	"invalid_ident": {
+		"code": 0,
+		"message": "invalid_ident"
+	},
+	"source_too_long": {
+		"code": 0,
+		"message": "source_too_long"
+	},
+	"int_lit_overflow": {
+		"code": 0,
+		"message": "int_lit_overflow"
+	},
+	"int_lit_underflow": {
+		"code": 0,
+		"message": "int_lit_underflow"
+	},
+	"expected_ident": {
+		"code": 0,
+		"message": "expected_ident"
+	},
+	"expected_namespace": {
+		"code": 0,
+		"message": "expected_namespace"
+	},
+	"expected_plain_int_lit": {
+		"code": 0,
+		"message": "expected_plain_int_lit"
+	},
+	"expected_int_lit": {
+		"code": 0,
+		"message": "expected_int_lit"
+	},
+	"expected_text_lit": {
+		"code": 0,
+		"message": "expected_text_lit"
+	},
+	"expected_sigil_at": {
+		"code": 0,
+		"message": "expected_sigil_at"
+	},
+	"expected_sigil_colon": {
+		"code": 0,
+		"message": "expected_sigil_colon"
+	},
+	"expected_sigil_eq": {
+		"code": 0,
+		"message": "expected_sigil_eq"
+	},
+	"expected_sigil_open_curl": {
+		"code": 0,
+		"message": "expected_sigil_open_curl"
+	},
+	"expected_sigil_open_paren": {
+		"code": 0,
+		"message": "expected_sigil_open_paren"
+	},
+	"expected_sigil_close_paren": {
+		"code": 0,
+		"message": "expected_sigil_close_paren"
+	},
+	"expected_sigil_close_square": {
+		"code": 0,
+		"message": "expected_sigil_close_square"
+	},
+	"expected_decl": {
+		"code": 0,
+		"message": "expected_decl"
+	},
+	"unknown_decl": {
+		"code": 0,
+		"message": "unknown_decl"
+	},
+	"expected_type_name": {
+		"code": 0,
+		"message": "expected_type_name"
+	},
+	"expected_protocol_item": {
+		"code": 0,
+		"message": "expected_protocol_item"
+	},
+	"unknown_decorator": {
+		"code": 0,
+		"message": "unknown_decorator"
+	}
+}

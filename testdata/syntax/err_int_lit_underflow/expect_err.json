@@ -1,0 +1,4 @@
+{
+    "error": "int_lit_underflow",
+    "error_span": {"start": 92, "len": 20}
+}

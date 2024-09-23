@@ -1,0 +1,5 @@
+namespace "idol.test/ns"
+
+const U64_OK: u64 = 0xFFFFFFFFFFFFFFFF
+
+const U64_TOO_BIG: u64 = 0x10000000000000000

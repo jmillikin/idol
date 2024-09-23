@@ -1,0 +1,4 @@
+{
+    "error": "expected_sigil_open_curl",
+    "error_span": {"start": 51, "len": 1}
+}
