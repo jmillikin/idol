@@ -1,0 +1,9 @@
+namespace "example.test/ns"
+
+message Foo {
+	a@1: u8
+}
+
+message Bar {
+	b@2: u8
+}

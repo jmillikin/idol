@@ -1,0 +1,8 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { Foo Bar Baz }
+
+message Msg {
+	foo@1: Foo
+	bar@2: Bar
+}

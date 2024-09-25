@@ -1,0 +1,5 @@
+namespace "example.test/ns"
+
+message Foo {}
+
+message Bar {}

@@ -1,0 +1,25 @@
+namespace = "idol.test/ns"
+import {
+	namespace = "example.test/ns"
+	names = [
+		"Foo"
+	]
+}
+export {
+	type = .MESSAGE
+	type_name = "example.test/ns\x1FFoo"
+	export_as = "RenamedFoo"
+}
+message {
+	name = "RenamedFoo"
+	field {
+		name = "a"
+		tag = 1
+		type = .U8
+	}
+	field {
+		name = "b"
+		tag = 2
+		type = .U16
+	}
+}
