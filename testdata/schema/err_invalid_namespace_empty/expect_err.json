@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "invalid_namespace",
+            "error_span": {"start": 10, "len": 2}
+        }
+    ]
+}

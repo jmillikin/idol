@@ -6,6 +6,11 @@ filegroup(
 )
 
 filegroup(
+    name = "schema",
+    srcs = glob(["schema/**/*"]),
+)
+
+filegroup(
     name = "syntax",
     srcs = glob(["syntax/**/*"]),
 )
