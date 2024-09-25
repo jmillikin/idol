@@ -1,0 +1,8 @@
+namespace "idol.test/ns"
+
+message Foo {
+	a@1: u8
+	b@2: u16
+	c@3: u8[2]
+	d@4: u8[]
+}

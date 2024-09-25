@@ -1,0 +1,17 @@
+namespace = "idol.test/ns"
+struct {
+	name = "Foo"
+	field {
+		name = "a"
+		type = .U8
+	}
+	field {
+		name = "b"
+		type = .U16
+	}
+	field {
+		name = "c"
+		type = .U8
+		array_len = 2
+	}
+}

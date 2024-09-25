@@ -1,0 +1,25 @@
+namespace "idol.test/ns"
+
+protocol Protocol_WithTags {
+	rpc Rpc_A@1(RpcRequest): RpcResponse
+
+	rpc Rpc_B@2(RpcRequest stream): RpcResponse
+
+	rpc Rpc_C@3(RpcRequest): (RpcResponse)
+
+	rpc Rpc_D@4(RpcRequest): (RpcResponse stream)
+
+	rpc Rpc_E@5(RpcRequest): ()
+
+	event Event_A@6: RpcRequest
+}
+
+protocol Protocol_WithoutTags {
+	rpc Rpc_A(RpcRequest): RpcResponse
+
+	event Event_A: RpcRequest
+}
+
+message RpcRequest {}
+
+message RpcResponse {}

@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "empty_struct",
+            "error_span": {"start": 26, "len": 13}
+        }
+    ]
+}

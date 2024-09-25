@@ -1,0 +1,26 @@
+namespace = "idol.test/ns"
+message {
+	name = "Foo"
+	field {
+		name = "a"
+		tag = 1
+		type = .U8
+	}
+	field {
+		name = "b"
+		tag = 2
+		type = .U16
+	}
+	field {
+		name = "c"
+		tag = 3
+		type = .U8
+		array_len = 2
+	}
+	field {
+		name = "d"
+		tag = 4
+		type = .U8
+		array_len = 4294967295
+	}
+}

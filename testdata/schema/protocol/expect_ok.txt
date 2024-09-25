@@ -1,0 +1,71 @@
+namespace = "idol.test/ns"
+message {
+	name = "RpcRequest"
+}
+message {
+	name = "RpcResponse"
+}
+protocol {
+	name = "Protocol_WithTags"
+	rpc {
+		name = "Rpc_A"
+		tag = 1
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+		response_type = .MESSAGE
+		response_type_name = "RpcResponse"
+	}
+	rpc {
+		name = "Rpc_B"
+		tag = 2
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+		request_is_stream = .true
+		response_type = .MESSAGE
+		response_type_name = "RpcResponse"
+	}
+	rpc {
+		name = "Rpc_C"
+		tag = 3
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+		response_type = .MESSAGE
+		response_type_name = "RpcResponse"
+	}
+	rpc {
+		name = "Rpc_D"
+		tag = 4
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+		response_type = .MESSAGE
+		response_type_name = "RpcResponse"
+		response_is_stream = .true
+	}
+	rpc {
+		name = "Rpc_E"
+		tag = 5
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+	}
+	event {
+		name = "Event_A"
+		tag = 6
+		payload_type = .MESSAGE
+		payload_type_name = "RpcRequest"
+	}
+}
+protocol {
+	name = "Protocol_WithoutTags"
+	rpc {
+		name = "Rpc_A"
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+		response_type = .MESSAGE
+		response_type_name = "RpcResponse"
+	}
+	event {
+		name = "Event_A"
+		payload_type = .MESSAGE
+		payload_type_name = "RpcRequest"
+	}
+}
