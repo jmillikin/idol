@@ -1,0 +1,12 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { Bar }
+import "example.test/ns" { Bar }
+
+import "example.test/ns" as example_ns
+import "example.test/ns" as example_ns
+
+message Msg {
+	foo@1: example_ns.Foo
+	bar@2: Bar
+}

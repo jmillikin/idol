@@ -1,0 +1,12 @@
+{
+	"warnings": [
+		{
+			"warning": "duplicate_import",
+			"warning_span": {"start": 86, "len": 3}
+		},
+		{
+			"warning": "duplicate_import_as",
+			"warning_span": {"start": 132, "len": 38}
+		}
+	]
+}

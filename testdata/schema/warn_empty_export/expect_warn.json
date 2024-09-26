@@ -1,0 +1,8 @@
+{
+	"warnings": [
+		{
+			"warning": "empty_export",
+			"warning_span": {"start": 26, "len": 10}
+		}
+	]
+}

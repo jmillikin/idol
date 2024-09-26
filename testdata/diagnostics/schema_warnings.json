@@ -1,0 +1,22 @@
+{
+	"empty_export": {
+		"code": 0,
+		"message": "empty_export"
+	},
+	"duplicate_import": {
+		"code": 0,
+		"message": "duplicate_import"
+	},
+	"duplicate_import_as": {
+		"code": 0,
+		"message": "duplicate_import_as"
+	},
+	"empty_import": {
+		"code": 0,
+		"message": "empty_import"
+	},
+	"unused_import": {
+		"code": 0,
+		"message": "unused_import"
+	}
+}

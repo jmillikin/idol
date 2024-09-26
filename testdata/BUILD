@@ -1,8 +1,8 @@
 package(default_visibility = ["//visibility:public"])
 
 filegroup(
-    name = "errors",
-    srcs = glob(["errors/**/*"]),
+    name = "diagnostics",
+    srcs = glob(["diagnostics/**/*"]),
 )
 
 filegroup(
