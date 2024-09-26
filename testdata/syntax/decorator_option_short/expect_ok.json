@@ -35,9 +35,13 @@
                         {"space": {
                             "span": {"start": 28, "len": 1},
                             "unparse": " "}},
-                        {"ident": {
+                        {"option-name": {
                             "span": {"start": 29, "len": 1},
-                            "value": "a"}},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 29, "len": 1},
+                                    "value": "a"}}
+                            ]}},
                         {"space": {
                             "span": {"start": 30, "len": 1},
                             "unparse": " "}},
@@ -120,9 +124,13 @@
                         {"space": {
                             "span": {"start": 58, "len": 1},
                             "unparse": " "}},
-                        {"ident": {
+                        {"option-name": {
                             "span": {"start": 59, "len": 1},
-                            "value": "a"}},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 59, "len": 1},
+                                    "value": "a"}}
+                            ]}},
                         {"space": {
                             "span": {"start": 60, "len": 1},
                             "unparse": " "}},

@@ -371,7 +371,9 @@ options = %s"options" [ *SP %x3A *SP type-name ] *SP %x7B
           *(options-option *(SP / NL / COMMENT NL))
           %x7D
 
-options-option = IDENT *SP %x3D *SP option-value
+options-option = option-name *SP %x3D *SP option-value
+
+option-name = IDENT *(%x2E IDENT)
 
 option-value = ANY-INT-LIT / TEXT-LIT / %x2E IDENT
 ```

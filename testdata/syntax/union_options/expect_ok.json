@@ -44,9 +44,13 @@
                         {"options-option": {
                             "span": {"start": 37, "len": 9},
                             "child-nodes": [
-                                {"ident": {
+                                {"option-name": {
                                     "span": {"start": 37, "len": 3},
-                                    "value": "abc"}},
+                                    "child-nodes": [
+                                        {"ident": {
+                                            "span": {"start": 37, "len": 3},
+                                            "value": "abc"}}
+                                    ]}},
                                 {"space": {
                                     "span": {"start": 40, "len": 1},
                                     "unparse": " "}},
@@ -159,9 +163,13 @@
                                 {"options-option": {
                                     "span": {"start": 82, "len": 9},
                                     "child-nodes": [
-                                        {"ident": {
+                                        {"option-name": {
                                             "span": {"start": 82, "len": 3},
-                                            "value": "def"}},
+                                            "child-nodes": [
+                                                {"ident": {
+                                                    "span": {"start": 82, "len": 3},
+                                                    "value": "def"}}
+                                            ]}},
                                         {"space": {
                                             "span": {"start": 85, "len": 1},
                                             "unparse": " "}},

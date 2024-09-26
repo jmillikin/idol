@@ -38,9 +38,13 @@
                 {"options-option": {
                     "span": {"start": 36, "len": 5},
                     "child-nodes": [
-                        {"ident": {
+                        {"option-name": {
                             "span": {"start": 36, "len": 1},
-                            "value": "a"}},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 36, "len": 1},
+                                    "value": "a"}}
+                            ]}},
                         {"space": {
                             "span": {"start": 37, "len": 1},
                             "unparse": " "}},
@@ -60,9 +64,13 @@
                 {"options-option": {
                     "span": {"start": 42, "len": 5},
                     "child-nodes": [
-                        {"ident": {
+                        {"option-name": {
                             "span": {"start": 42, "len": 1},
-                            "value": "b"}},
+                            "child-nodes": [
+                                {"ident": {
+                                    "span": {"start": 42, "len": 1},
+                                    "value": "b"}}
+                            ]}},
                         {"space": {
                             "span": {"start": 43, "len": 1},
                             "unparse": " "}},
@@ -113,9 +121,13 @@
                         {"options-option": {
                             "span": {"start": 62, "len": 27},
                             "child-nodes": [
-                                {"ident": {
+                                {"option-name": {
                                     "span": {"start": 62, "len": 20},
-                                    "value": "preserves_decorators"}},
+                                    "child-nodes": [
+                                        {"ident": {
+                                            "span": {"start": 62, "len": 20},
+                                            "value": "preserves_decorators"}}
+                                    ]}},
                                 {"space": {
                                     "span": {"start": 82, "len": 1},
                                     "unparse": " "}},
