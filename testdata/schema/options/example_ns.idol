@@ -1,0 +1,7 @@
+namespace "example.test/ns"
+
+message FooOptions {
+	a@1: u32
+	b@2: u32
+	nested@3: FooOptions
+}

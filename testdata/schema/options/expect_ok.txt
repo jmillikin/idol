@@ -1,0 +1,70 @@
+namespace = "idol.test/ns"
+import {
+	namespace = "example.test/ns"
+	names = [
+		"FooOptions"
+	]
+}
+options {
+	option {
+		name = "a"
+		type = .UNKNOWN
+		value = [0x31, 0x32]
+	}
+	option {
+		name = "b"
+		type = .UNKNOWN
+		value = [0x33, 0x34]
+	}
+}
+options {
+	schema_type = .MESSAGE
+	schema_type_name = "example.test/ns\x1FFooOptions"
+	option {
+		name = "a"
+		type = .U32
+		value = [0x0C, 0x00, 0x00, 0x00]
+	}
+	option {
+		name = "b"
+		type = .U32
+		value = [0x22, 0x00, 0x00, 0x00]
+	}
+	option {
+		name = "nested.a"
+		type = .U32
+		value = [0x38, 0x00, 0x00, 0x00]
+	}
+	option {
+		name = "unknown"
+		type = .UNKNOWN
+		value = [0x37, 0x38]
+	}
+	option {
+		name = "nested.unknown"
+		type = .UNKNOWN
+		value = [0x39, 0x31, 0x30]
+	}
+}
+message {
+	name = "MessageWithOptions"
+	options {
+		option {
+			name = "a"
+			type = .UNKNOWN
+			value = [0x31, 0x32]
+		}
+	}
+	field {
+		name = "field_with_options"
+		tag = 1
+		type = .U32
+		options {
+			option {
+				name = "b"
+				type = .UNKNOWN
+				value = [0x33, 0x34]
+			}
+		}
+	}
+}

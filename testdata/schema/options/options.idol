@@ -1,0 +1,22 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { FooOptions }
+
+options {
+	a = 12
+	b = 34
+}
+
+options: FooOptions {
+	a = 12
+	b = 34
+	nested.a = 56
+	unknown = 78
+	nested.unknown = 910
+}
+
+@options { a = 12 }
+message MessageWithOptions {
+	@options { b = 34 }
+	field_with_options@1: u32
+}
