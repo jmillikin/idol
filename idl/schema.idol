@@ -1,0 +1,174 @@
+# Copyright 2023 John Millikin <john@john-millikin.com>
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+#
+# SPDX-License-Identifier: 0BSD
+
+namespace "idol/schema"
+
+enum Type :u8 {
+	UNKNOWN =  0
+	BOOL    =  1
+	U8      =  2
+	I8      =  3
+	U16     =  4
+	I16     =  5
+	U32     =  6
+	I32     =  7
+	U64     =  8
+	I64     =  9
+	F32     = 10
+	F64     = 11
+	HANDLE  = 12
+	TEXT    = 13
+	ASCIZ   = 14
+	STRUCT  = 15
+	MESSAGE = 16
+	UNION   = 17
+}
+
+message Schema {
+	namespace @1 :text
+
+	imports @2 :Import[]
+	exports @3 :Export[]
+	options @4 :Options[]
+
+	consts @5 :Const[]
+	enums @6 :Enum[]
+	structs @7 :Struct[]
+	messages @8 :Message[]
+	unions @9 :Union[]
+	protocols @10 :Protocol[]
+}
+
+message Import {
+	namespace @1 :text
+	names @2 :text[]
+}
+
+message Export {
+	type @1 :Type
+	type_name @2 :text
+	export_as @3 :text
+}
+
+message Options {
+	schema_type @1 :Type
+	schema_type_name @2 :text
+	options @3 :Option[]
+}
+
+message Option {
+	name @1 :text
+	type @2 :Type
+	type_name @3 :text
+	value @4 :u8[]
+}
+
+message Const {
+	name @1 :text
+	type @2 :Type
+	type_name @3 :text
+	value @4 :u8[]
+	options @5 :Options[]
+}
+
+message Enum {
+	name @1 :text
+	type @2 :Type
+	options @4 :Options[]
+	items @3 :EnumItem[]
+}
+
+message EnumItem {
+	name @1 :text
+	value @2 :u64
+	is_alias @3 :bool
+	options @4 :Options[]
+}
+
+message Struct {
+	name @1 :text
+	options @3 :Options[]
+	fields @2 :StructField[]
+}
+
+message StructField {
+	name @1 :text
+	type @2 :Type
+	type_name @3 :text
+	array_len @4 :u32
+	options @5 :Options[]
+}
+
+message Message {
+	name @1 :text
+	options @3 :Options[]
+	fields @2 :MessageField[]
+}
+
+message MessageField {
+	name @1 :text
+	tag @2 :u16
+	type @3 :Type
+	type_name @4 :text
+	array_len @5 :u32
+	options @6 :Options[]
+}
+
+message Union {
+	name @1 :text
+	options @3 :Options[]
+	fields @2 :UnionField[]
+}
+
+message UnionField {
+	name @1 :text
+	tag @2 :u16
+	type @3 :Type
+	type_name @4 :text
+	array_len @5 :u32
+	options @6 :Options[]
+}
+
+message Protocol {
+	name @1 :text
+	rpcs @2 :ProtocolRpc[]
+	events @3 :ProtocolEvent[]
+	options @4 :Options[]
+}
+
+message ProtocolRpc {
+	name @1 :text
+
+	@{optional}
+	tag @2 :u64
+
+	request_type @3 :Type
+	request_type_name @4 :text
+	request_is_stream @5 :bool
+
+	response_type @6 :Type
+	response_type_name @7 :text
+	response_is_stream @8 :bool
+}
+
+message ProtocolEvent {
+	name @1 :text
+
+	@{optional}
+	tag @2 :u64
+
+	payload_type @3 :Type
+	payload_type_name @4 :text
+}
