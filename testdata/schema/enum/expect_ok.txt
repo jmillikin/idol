@@ -7,12 +7,12 @@ enum {
 		value = 1
 	}
 	item {
+		name = "B"
+		value = 2
+	}
+	item {
 		name = "C"
 		value = 1
 		is_alias = .true
-	}
-	item {
-		name = "B"
-		value = 2
 	}
 }

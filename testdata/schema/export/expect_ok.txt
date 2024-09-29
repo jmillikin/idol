@@ -15,18 +15,18 @@ export {
 	type_name = "example.test/ns\x1FFoo"
 }
 message {
-	name = "Bar"
-	field {
-		name = "b"
-		tag = 2
-		type = .U8
-	}
-}
-message {
 	name = "Foo"
 	field {
 		name = "a"
 		tag = 1
+		type = .U8
+	}
+}
+message {
+	name = "Bar"
+	field {
+		name = "b"
+		tag = 2
 		type = .U8
 	}
 }
