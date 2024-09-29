@@ -1,23 +1,23 @@
 namespace = "idol.test/ns"
-message {
+messages {
 	name = "Foo"
-	field {
+	fields {
 		name = "a"
 		tag = 1
 		type = .U8
 	}
-	field {
+	fields {
 		name = "b"
 		tag = 2
 		type = .U16
 	}
-	field {
+	fields {
 		name = "c"
 		tag = 3
 		type = .U8
 		array_len = 2
 	}
-	field {
+	fields {
 		name = "d"
 		tag = 4
 		type = .U8

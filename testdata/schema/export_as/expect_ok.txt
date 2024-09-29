@@ -1,23 +1,23 @@
 namespace = "idol.test/ns"
-import {
+imports {
 	namespace = "example.test/ns"
 	names = [
 		"Foo"
 	]
 }
-export {
+exports {
 	type = .MESSAGE
 	type_name = "example.test/ns\x1FFoo"
 	export_as = "RenamedFoo"
 }
-message {
+messages {
 	name = "RenamedFoo"
-	field {
+	fields {
 		name = "a"
 		tag = 1
 		type = .U8
 	}
-	field {
+	fields {
 		name = "b"
 		tag = 2
 		type = .U16

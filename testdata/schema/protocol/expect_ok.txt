@@ -1,13 +1,13 @@
 namespace = "idol.test/ns"
-message {
+messages {
 	name = "RpcRequest"
 }
-message {
+messages {
 	name = "RpcResponse"
 }
-protocol {
+protocols {
 	name = "Protocol_WithTags"
-	rpc {
+	rpcs {
 		name = "Rpc_A"
 		tag = 1
 		request_type = .MESSAGE
@@ -15,7 +15,7 @@ protocol {
 		response_type = .MESSAGE
 		response_type_name = "RpcResponse"
 	}
-	rpc {
+	rpcs {
 		name = "Rpc_B"
 		tag = 2
 		request_type = .MESSAGE
@@ -24,7 +24,7 @@ protocol {
 		response_type = .MESSAGE
 		response_type_name = "RpcResponse"
 	}
-	rpc {
+	rpcs {
 		name = "Rpc_C"
 		tag = 3
 		request_type = .MESSAGE
@@ -32,7 +32,7 @@ protocol {
 		response_type = .MESSAGE
 		response_type_name = "RpcResponse"
 	}
-	rpc {
+	rpcs {
 		name = "Rpc_D"
 		tag = 4
 		request_type = .MESSAGE
@@ -41,29 +41,29 @@ protocol {
 		response_type_name = "RpcResponse"
 		response_is_stream = .true
 	}
-	rpc {
+	rpcs {
 		name = "Rpc_E"
 		tag = 5
 		request_type = .MESSAGE
 		request_type_name = "RpcRequest"
 	}
-	event {
+	events {
 		name = "Event_A"
 		tag = 6
 		payload_type = .MESSAGE
 		payload_type_name = "RpcRequest"
 	}
 }
-protocol {
+protocols {
 	name = "Protocol_WithoutTags"
-	rpc {
+	rpcs {
 		name = "Rpc_A"
 		request_type = .MESSAGE
 		request_type_name = "RpcRequest"
 		response_type = .MESSAGE
 		response_type_name = "RpcResponse"
 	}
-	event {
+	events {
 		name = "Event_A"
 		payload_type = .MESSAGE
 		payload_type_name = "RpcRequest"

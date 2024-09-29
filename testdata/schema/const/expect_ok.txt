@@ -1,70 +1,70 @@
 namespace = "idol.test/ns"
-const {
+consts {
 	name = "C_FALSE"
 	type = .BOOL
 	value = [0x00]
 }
-const {
+consts {
 	name = "C_TRUE"
 	type = .BOOL
 	value = [0x01]
 }
-const {
+consts {
 	name = "C_U8"
 	type = .U8
 	value = [0x0C]
 }
-const {
+consts {
 	name = "C_I8"
 	type = .I8
 	value = [0xF4]
 }
-const {
+consts {
 	name = "C_U16"
 	type = .U16
 	value = [0xD2, 0x04]
 }
-const {
+consts {
 	name = "C_I16"
 	type = .I16
 	value = [0x2E, 0xFB]
 }
-const {
+consts {
 	name = "C_U32"
 	type = .U32
 	value = [0x40, 0xE2, 0x01, 0x00]
 }
-const {
+consts {
 	name = "C_I32"
 	type = .I32
 	value = [0xC0, 0x1D, 0xFE, 0xFF]
 }
-const {
+consts {
 	name = "C_U64"
 	type = .U64
 	value = [0x4E, 0x61, 0xBC, 0x00, 0x00, 0x00, 0x00, 0x00]
 }
-const {
+consts {
 	name = "C_I64"
 	type = .I64
 	value = [0xB2, 0x9E, 0x43, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]
 }
-const {
+consts {
 	name = "C_F32"
 	type = .F32
 	value = [0x00, 0x00, 0xF6, 0x42]
 }
-const {
+consts {
 	name = "C_F64"
 	type = .F64
 	value = [0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0xFE, 0x40]
 }
-const {
+consts {
 	name = "C_TEXT"
 	type = .TEXT
 	value = [0x61, 0x62, 0x63]
 }
-const {
+consts {
 	name = "C_ASCIZ"
 	type = .ASCIZ
 	value = [0x61, 0x62, 0x63, 0x00]

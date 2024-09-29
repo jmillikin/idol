@@ -1,16 +1,16 @@
 namespace = "idol.test/ns"
-enum {
+enums {
 	name = "Foo"
 	type = .U32
-	item {
+	items {
 		name = "A"
 		value = 1
 	}
-	item {
+	items {
 		name = "B"
 		value = 2
 	}
-	item {
+	items {
 		name = "C"
 		value = 1
 		is_alias = .true

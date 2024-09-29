@@ -1,20 +1,20 @@
 namespace = "idol.test/ns"
-import {
+imports {
 	namespace = "example.test/ns"
 	names = [
 		"Bar"
 		"Foo"
 	]
 }
-message {
+messages {
 	name = "Msg"
-	field {
+	fields {
 		name = "foo"
 		tag = 1
 		type = .MESSAGE
 		type_name = "example.test/ns\x1FFoo"
 	}
-	field {
+	fields {
 		name = "bar"
 		tag = 2
 		type = .MESSAGE
