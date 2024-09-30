@@ -1,110 +1,107 @@
 {
-	"unpaired_carriage_return": {
-		"code": 0,
-		"message": "unpaired_carriage_return"
+	"source_too_long": {
+		"code": 1000
 	},
-	"invalid_utf8": {
-		"code": 0,
-		"message": "invalid_utf8"
+	"source_invalid_utf8": {
+		"code": 1001
 	},
-	"unexpected_char": {
-		"code": 0,
-		"message": "unexpected_char"
+	"unexpected_character": {
+		"code": 1002
+	},
+	"forbidden_control_character": {
+		"code": 1003
 	},
 	"token_too_long": {
-		"code": 0,
-		"message": "token_too_long"
+		"code": 1004
 	},
-	"invalid_int_lit": {
-		"code": 0,
-		"message": "invalid_int_lit"
+	"int_lit_invalid": {
+		"code": 1005
 	},
-	"invalid_text_lit": {
-		"code": 0,
-		"message": "invalid_text_lit"
+	"text_lit_unterminated": {
+		"code": 1006
 	},
-	"invalid_ident": {
-		"code": 0,
-		"message": "invalid_ident"
+	"text_lit_contains_newline": {
+		"code": 1007
 	},
-	"source_too_long": {
-		"code": 0,
-		"message": "source_too_long"
-	},
-	"int_lit_overflow": {
-		"code": 0,
-		"message": "int_lit_overflow"
-	},
-	"int_lit_underflow": {
-		"code": 0,
-		"message": "int_lit_underflow"
-	},
-	"expected_ident": {
-		"code": 0,
-		"message": "expected_ident"
-	},
-	"expected_namespace": {
-		"code": 0,
-		"message": "expected_namespace"
-	},
-	"expected_plain_int_lit": {
-		"code": 0,
-		"message": "expected_plain_int_lit"
-	},
-	"expected_int_lit": {
-		"code": 0,
-		"message": "expected_int_lit"
-	},
-	"expected_text_lit": {
-		"code": 0,
-		"message": "expected_text_lit"
+	"ident_invalid": {
+		"code": 1008
 	},
 	"expected_sigil_at": {
-		"code": 0,
-		"message": "expected_sigil_at"
+		"code": 2000
 	},
 	"expected_sigil_colon": {
-		"code": 0,
-		"message": "expected_sigil_colon"
+		"code": 2001
+	},
+	"_expected_sigil_dot": {
+		"code": 2002
 	},
 	"expected_sigil_eq": {
-		"code": 0,
-		"message": "expected_sigil_eq"
+		"code": 2003
 	},
 	"expected_sigil_open_curl": {
-		"code": 0,
-		"message": "expected_sigil_open_curl"
+		"code": 2004
+	},
+	"_expected_sigil_close_curl": {
+		"code": 2005
 	},
 	"expected_sigil_open_paren": {
-		"code": 0,
-		"message": "expected_sigil_open_paren"
+		"code": 2006
 	},
 	"expected_sigil_close_paren": {
-		"code": 0,
-		"message": "expected_sigil_close_paren"
+		"code": 2007
+	},
+	"_expected_sigil_open_square": {
+		"code": 2008
 	},
 	"expected_sigil_close_square": {
-		"code": 0,
-		"message": "expected_sigil_close_square"
+		"code": 2009
 	},
-	"expected_decl": {
-		"code": 0,
-		"message": "expected_decl"
+	"expected_int_lit": {
+		"code": 2010
 	},
-	"unknown_decl": {
-		"code": 0,
-		"message": "unknown_decl"
+	"expected_text_lit": {
+		"code": 2011
 	},
-	"expected_type_name": {
-		"code": 0,
-		"message": "expected_type_name"
+	"expected_ident": {
+		"code": 2012
 	},
-	"expected_protocol_item": {
-		"code": 0,
-		"message": "expected_protocol_item"
+	"expected_keyword_as": {
+		"code": 2013
+	},
+	"expected_keyword_namespace": {
+		"code": 2014
+	},
+	"expected_declaration": {
+		"code": 2015
+	},
+	"unknown_declaration": {
+		"code": 2016
 	},
 	"unknown_decorator": {
-		"code": 0,
-		"message": "unknown_decorator"
+		"code": 2017
+	},
+	"expected_type_name": {
+		"code": 2018
+	},
+	"expected_const_value": {
+		"code": 2019
+	},
+	"expected_option_name": {
+		"code": 2020
+	},
+	"expected_option_value": {
+		"code": 2021
+	},
+	"int_lit_too_positive": {
+		"code": 2022
+	},
+	"int_lit_too_negative": {
+		"code": 2023
+	},
+	"text_lit_invalid": {
+		"code": 2024
+	},
+	"expected_protocol_item": {
+		"code": 2025
 	}
 }

@@ -1,4 +1,4 @@
 {
-    "error": "int_lit_overflow",
+    "error": "int_lit_too_positive",
     "error_span": {"start": 91, "len": 19}
 }

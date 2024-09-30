@@ -2,12 +2,12 @@
 	"expect_err": [
 		{
 			"source": "!",
-			"error": "unexpected_char",
+			"error": "unexpected_character",
 			"error_span": {"start": 0, "len": 1}
 		},
 		{
 			"source": "\u3042",
-			"error": "unexpected_char",
+			"error": "unexpected_character",
 			"error_span": {"start": 0, "len": 3}
 		}
 	]

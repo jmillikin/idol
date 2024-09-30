@@ -20,8 +20,18 @@
 	"expect_err": [
 		{
 			"source": "a_",
-			"error": "invalid_ident",
+			"error": "ident_invalid",
 			"error_span": {"start": 0, "len": 2}
+		},
+		{
+			"source": "a_ ",
+			"error": "ident_invalid",
+			"error_span": {"start": 0, "len": 2}
+		},
+		{
+			"source": "a__a",
+			"error": "ident_invalid",
+			"error_span": {"start": 0, "len": 4}
 		}
 	]
 }

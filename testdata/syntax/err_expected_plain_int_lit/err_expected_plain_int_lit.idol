@@ -1,5 +1,0 @@
-namespace "idol.test/ns"
-
-message Foo {
-	a@0x1: u8
-}

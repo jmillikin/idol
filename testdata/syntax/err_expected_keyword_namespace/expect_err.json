@@ -1,4 +1,4 @@
 {
-    "error": "expected_namespace",
+    "error": "expected_keyword_namespace",
     "error_span": {"start": 0, "len": 5}
 }

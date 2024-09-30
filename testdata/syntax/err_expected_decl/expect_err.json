@@ -1,4 +1,4 @@
 {
-    "error": "expected_decl",
+    "error": "expected_declaration",
     "error_span": {"start": 26, "len": 3}
 }

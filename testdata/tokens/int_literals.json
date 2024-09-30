@@ -100,37 +100,42 @@
 	"expect_err": [
 		{
 			"source": "-",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
+			"error_span": {"start": 0, "len": 1}
+		},
+		{
+			"source": "- ",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 1}
 		},
 		{
 			"source": "-0",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 2}
 		},
 		{
 			"source": "00",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 2}
 		},
 		{
 			"source": "01",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 2}
 		},
 		{
 			"source": "0a0",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 3}
 		},
 		{
 			"source": "1a",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 2}
 		},
 		{
 			"source": "1g",
-			"error": "invalid_int_lit",
+			"error": "int_lit_invalid",
 			"error_span": {"start": 0, "len": 2}
 		}
 	]

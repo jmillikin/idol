@@ -1,4 +1,4 @@
 {
-	"error": "unknown_decl",
+	"error": "unknown_declaration",
 	"error_span": {"start": 26, "len": 7}
 }
