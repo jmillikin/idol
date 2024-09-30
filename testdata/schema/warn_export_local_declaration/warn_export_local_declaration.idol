@@ -1,0 +1,5 @@
+namespace "idol.test/ns"
+
+export { Foo }
+
+message Foo {}

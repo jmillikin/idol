@@ -1,0 +1,16 @@
+namespace = "idol.test/ns"
+imports {
+	namespace = "example.test/ns"
+	names = [
+		"Foo"
+	]
+}
+messages {
+	name = "Bar"
+	fields {
+		name = "foo"
+		tag = 1
+		type = .MESSAGE
+		type_name = "example.test/ns\x1FFoo"
+	}
+}

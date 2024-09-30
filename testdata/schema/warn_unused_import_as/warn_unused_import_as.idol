@@ -1,0 +1,8 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { Foo }
+import "example.test/ns" as example_ns
+
+message Bar {
+	foo@1: Foo
+}

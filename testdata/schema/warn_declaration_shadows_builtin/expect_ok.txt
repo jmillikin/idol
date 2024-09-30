@@ -1,0 +1,4 @@
+namespace = "idol.test/ns"
+messages {
+	name = "u8"
+}

@@ -1,0 +1,12 @@
+{
+	"warnings": [
+		{
+			"warning": "export_as_same_name",
+			"warning_span": {"start": 99, "len": 17}
+		},
+		{
+			"warning": "export_as_same_name",
+			"warning_span": {"start": 118, "len": 28}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"warnings": [
+		{
+			"warning": "export_local_declaration",
+			"warning_span": {"start": 35, "len": 3}
+		}
+	]
+}

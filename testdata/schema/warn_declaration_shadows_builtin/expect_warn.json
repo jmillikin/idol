@@ -1,0 +1,8 @@
+{
+	"warnings": [
+		{
+			"warning": "declaration_shadows_builtin",
+			"warning_span": {"start": 34, "len": 2}
+		}
+	]
+}

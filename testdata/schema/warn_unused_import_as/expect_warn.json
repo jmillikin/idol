@@ -1,0 +1,8 @@
+{
+	"warnings": [
+		{
+			"warning": "unused_import_as",
+			"warning_span": {"start": 59, "len": 38}
+		}
+	]
+}

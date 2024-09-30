@@ -1,22 +1,32 @@
 {
-	"empty_export": {
-		"code": 0,
-		"message": "empty_export"
-	},
-	"duplicate_import": {
-		"code": 0,
-		"message": "duplicate_import"
-	},
-	"duplicate_import_as": {
-		"code": 0,
-		"message": "duplicate_import_as"
-	},
 	"empty_import": {
-		"code": 0,
-		"message": "empty_import"
+		"code": 4000
 	},
 	"unused_import": {
-		"code": 0,
-		"message": "unused_import"
+		"code": 4001
+	},
+	"unused_import_as": {
+		"code": 4002
+	},
+	"duplicate_import": {
+		"code": 4003
+	},
+	"duplicate_import_as": {
+		"code": 4004
+	},
+	"empty_export": {
+		"code": 4005
+	},
+	"duplicate_export": {
+		"code": 4006
+	},
+	"export_as_same_name": {
+		"code": 4007
+	},
+	"export_local_declaration": {
+		"code": 4008
+	},
+	"declaration_shadows_builtin": {
+		"code": 4009
 	}
 }
