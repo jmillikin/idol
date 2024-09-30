@@ -57,9 +57,19 @@ message Import {
 }
 
 message Export {
-	type @1 :Type
+	type @1 :ExportType
 	type_name @2 :text
 	export_as @3 :text
+}
+
+enum ExportType :u8 {
+	UNKNOWN  = 0
+	CONST    = 1
+	ENUM     = 2
+	STRUCT   = 3
+	MESSAGE  = 4
+	UNION    = 5
+	PROTOCOL = 6
 }
 
 message Options {

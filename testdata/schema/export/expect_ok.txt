@@ -2,31 +2,70 @@ namespace = "idol.test/ns"
 imports {
 	namespace = "example.test/ns"
 	names = [
-		"Bar"
-		"Foo"
+		"EXAMPLE_CONST"
+		"ExampleEnum"
+		"ExampleMessage"
+		"ExampleProtocol"
+		"ExampleStruct"
+		"ExampleUnion"
 	]
 }
 exports {
-	type = .MESSAGE
-	type_name = "example.test/ns\x1FBar"
+	type = .CONST
+	type_name = "example.test/ns\x1FEXAMPLE_CONST"
+}
+exports {
+	type = .ENUM
+	type_name = "example.test/ns\x1FExampleEnum"
+}
+exports {
+	type = .STRUCT
+	type_name = "example.test/ns\x1FExampleStruct"
 }
 exports {
 	type = .MESSAGE
-	type_name = "example.test/ns\x1FFoo"
+	type_name = "example.test/ns\x1FExampleMessage"
 }
-messages {
-	name = "Foo"
+exports {
+	type = .UNION
+	type_name = "example.test/ns\x1FExampleUnion"
+}
+exports {
+	type = .PROTOCOL
+	type_name = "example.test/ns\x1FExampleProtocol"
+}
+consts {
+	name = "EXAMPLE_CONST"
+	type = .U8
+	value = [0x01]
+}
+enums {
+	name = "ExampleEnum"
+	type = .U8
+}
+structs {
+	name = "ExampleStruct"
 	fields {
 		name = "a"
-		tag = 1
 		type = .U8
 	}
 }
 messages {
-	name = "Bar"
+	name = "ExampleMessage"
 	fields {
 		name = "b"
 		tag = 2
 		type = .U8
 	}
+}
+unions {
+	name = "ExampleUnion"
+	fields {
+		name = "c"
+		tag = 3
+		type = .U8
+	}
+}
+protocols {
+	name = "ExampleProtocol"
 }

@@ -1,5 +1,12 @@
 namespace "idol.test/ns"
 
-import "example.test/ns" { Foo Bar Baz }
+import "example.test/ns" as example_ns
 
-export { Foo Bar }
+export {
+	example_ns.EXAMPLE_CONST
+	example_ns.ExampleEnum
+	example_ns.ExampleStruct
+	example_ns.ExampleMessage
+	example_ns.ExampleUnion
+	example_ns.ExampleProtocol
+}

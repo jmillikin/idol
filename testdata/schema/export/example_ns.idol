@@ -1,9 +1,20 @@
 namespace "example.test/ns"
 
-message Foo {
-	a@1: u8
+const EXAMPLE_CONST: u8 = 1
+
+enum ExampleEnum: u8 {}
+
+struct ExampleStruct {
+	a: u8
 }
 
-message Bar {
+message ExampleMessage {
 	b@2: u8
+}
+
+union ExampleUnion {
+	c@3: u8
+}
+
+protocol ExampleProtocol {
 }
