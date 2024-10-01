@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "const_type_invalid",
+            "error_span": {"start": 37, "len": 3}
+        },
+        {
+            "error": "const_type_invalid",
+            "error_span": {"start": 60, "len": 6}
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+namespace "idol.test/ns"
+
+protocol A {
+	rpc Hello_A@1(RpcRequest): RpcResponse
+	rpc Hello_B@1(RpcRequest): RpcResponse
+}
+
+message RpcRequest {}
+
+message RpcResponse {}

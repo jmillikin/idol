@@ -1,0 +1,60 @@
+{
+    "errors": [
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 51, "len": 1}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 75, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 99, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 126, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 152, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 179, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 205, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 232, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 258, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 285, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 311, "len": 2}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 340, "len": 1}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 369, "len": 1}
+        },
+        {
+            "error": "value_type_mismatch",
+            "error_span": {"start": 416, "len": 1}
+        }
+    ]
+}

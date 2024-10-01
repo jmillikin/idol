@@ -1,0 +1,39 @@
+namespace "idol.test/ns"
+
+enum Enum_U8: u8 {
+	POS = 0x100
+	NEG = -1
+}
+
+enum Enum_I8: i8 {
+	POS = 0x80
+	NEG = -0x81
+}
+
+enum Enum_U16: u16 {
+	POS = 0x10000
+	NEG = -1
+}
+
+enum Enum_I16: i16 {
+	POS = 0x8000
+	NEG = -0x8001
+}
+
+enum Enum_U32: u32 {
+	POS = 0x100000000
+	NEG = -1
+}
+
+enum Enum_I32: i32 {
+	POS = 0x80000000
+	NEG = -0x80000001
+}
+
+enum Enum_U64: u64 {
+	NEG = -1
+}
+
+enum Enum_I64: i64 {
+	POS = 0x8000000000000000
+}

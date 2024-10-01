@@ -1,10 +1,95 @@
 {
 	"invalid_namespace": {
-		"code": 0,
-		"message": "invalid_namespace"
+		"code": 3000
+	},
+	"import_namespace_not_found": {
+		"code": 3001
+	},
+	"import_as_conflict": {
+		"code": 3002
+	},
+	"import_as_not_found": {
+		"code": 3003
+	},
+	"import_name_conflict": {
+		"code": 3004
+	},
+	"import_name_not_found": {
+		"code": 3005
+	},
+	"import_name_definition_conflict": {
+		"code": 3006
+	},
+	"imported_name_not_type": {
+		"code": 3007
+	},
+	"_exportable_name_not_found": {
+		"code": 3008
+	},
+	"_type_name_not_found": {
+		"code": 3009
+	},
+	"_option_name_conflict": {
+		"code": 3010
+	},
+	"_option_value_type_invalid": {
+		"code": 3011
+	},
+	"declaration_name_conflict": {
+		"code": 3012
+	},
+	"declaration_name_conflict_import": {
+		"code": 3013
+	},
+	"declaration_name_conflict_import_as": {
+		"code": 3014
+	},
+	"value_type_mismatch": {
+		"code": 3015
+	},
+	"value_out_of_range": {
+		"code": 3016
+	},
+	"invalid_bool_value": {
+		"code": 3017
+	},
+	"invalid_asciz_value": {
+		"code": 3018
+	},
+	"invalid_text_value": {
+		"code": 3019
+	},
+	"const_type_invalid": {
+		"code": 3020
+	},
+	"enum_type_invalid": {
+		"code": 3021
+	},
+	"enum_item_name_conflict": {
+		"code": 3022
+	},
+	"enum_item_value_conflict": {
+		"code": 3023
 	},
 	"empty_struct": {
-		"code": 0,
-		"message": "empty_struct"
+		"code": 3024
+	},
+	"field_name_conflict": {
+		"code": 3025
+	},
+	"field_tag_conflict": {
+		"code": 3026
+	},
+	"field_tag_out_of_range": {
+		"code": 3027
+	},
+	"protocol_item_name_conflict": {
+		"code": 3028
+	},
+	"protocol_item_tag_conflict": {
+		"code": 3029
+	},
+	"protocol_item_tag_out_of_range": {
+		"code": 3030
 	}
 }

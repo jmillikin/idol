@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "import_as_not_found",
+            "error_span": {"start": 35, "len": 9}
+        },
+        {
+            "error": "import_as_not_found",
+            "error_span": {"start": 73, "len": 9}
+        }
+    ]
+}

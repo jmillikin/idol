@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "field_tag_conflict",
+            "error_span": {"start": 49, "len": 2}
+        },
+        {
+            "error": "field_tag_conflict",
+            "error_span": {"start": 80, "len": 2}
+        }
+    ]
+}

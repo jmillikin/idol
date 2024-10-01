@@ -1,0 +1,7 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { NoExist }
+
+message Foo {
+	a @1 :NoExist
+}

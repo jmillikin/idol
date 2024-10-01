@@ -1,0 +1,32 @@
+{
+    "errors": [
+        {
+            "error": "invalid_bool_value",
+            "error_span": {"start": 49, "len": 6}
+        },
+        {
+            "error": "invalid_asciz_value",
+            "error_span": {"start": 84, "len": 10}
+        },
+        {
+            "error": "invalid_asciz_value",
+            "error_span": {"start": 122, "len": 9}
+        },
+        {
+            "error": "invalid_asciz_value",
+            "error_span": {"start": 159, "len": 14}
+        },
+        {
+            "error": "invalid_text_value",
+            "error_span": {"start": 200, "len": 10}
+        },
+        {
+            "error": "invalid_text_value",
+            "error_span": {"start": 236, "len": 14}
+        },
+        {
+            "error": "invalid_text_value",
+            "error_span": {"start": 276, "len": 10}
+        }
+    ]
+}

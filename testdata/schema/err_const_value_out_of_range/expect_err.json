@@ -1,0 +1,76 @@
+{
+    "errors": [
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 45, "len": 5}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 70, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 93, "len": 4}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 117, "len": 5}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 145, "len": 7}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 174, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 199, "len": 6}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 227, "len": 7}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 257, "len": 11}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 290, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 315, "len": 10}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 347, "len": 11}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 381, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 406, "len": 18}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 447, "len": 9}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 478, "len": 10}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 511, "len": 16}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 549, "len": 17}
+        }
+    ]
+}

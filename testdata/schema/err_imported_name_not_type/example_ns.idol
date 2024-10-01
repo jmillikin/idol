@@ -1,0 +1,5 @@
+namespace "example.test/ns"
+
+const Foo: u8 = 1
+
+protocol Bar {}

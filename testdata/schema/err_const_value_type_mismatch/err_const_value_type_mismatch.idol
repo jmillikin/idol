@@ -1,0 +1,25 @@
+namespace "idol.test/ns"
+
+const CONST_BOOL: bool = 0
+
+const CONST_U8: u8 = ""
+const CONST_I8: i8 = ""
+
+const CONST_U16: u16 = ""
+const CONST_I16: i16 = ""
+
+const CONST_U32: u32 = ""
+const CONST_I32: i32 = ""
+
+const CONST_U64: u64 = ""
+const CONST_I64: i64 = ""
+
+const CONST_F32: f32 = ""
+const CONST_F64: f64 = ""
+
+const CONST_TEXT: text = 0
+const CONST_ASCIZ: asciz = 0
+
+enum Enum: u32 {}
+
+const CONST_ENUM: Enum = 0

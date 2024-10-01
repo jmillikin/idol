@@ -1,0 +1,7 @@
+namespace "idol.test/ns"
+
+const FOO: Foo = 0
+
+const HANDLE: handle = 0
+
+message Foo {}

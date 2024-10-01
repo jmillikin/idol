@@ -1,0 +1,29 @@
+namespace "idol.test/ns"
+
+const U8_POS: u8 = 0x100
+const U8_NEG: u8 = -1
+
+const I8_POS: i8 = 0x80
+const I8_NEG: i8 = -0x81
+
+const U16_POS: u16 = 0x10000
+const U16_NEG: u16 = -1
+
+const I16_POS: i16 = 0x8000
+const I16_NEG: i16 = -0x8001
+
+const U32_POS: u32 = 0x100000000
+const U32_NEG: u32 = -1
+
+const I32_POS: i32 = 0x80000000
+const I32_NEG: i32 = -0x80000001
+
+const U64_NEG: u64 = -1
+
+const I64_POS: i64 = 0x8000000000000000
+
+const F32_POS: f32 = 0x1000001
+const F32_NEG: f32 = -0x1000001
+
+const F64_POS: f64 = 0x20000000000001
+const F64_NEG: f64 = -0x20000000000001

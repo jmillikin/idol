@@ -1,0 +1,16 @@
+{
+    "errors": [
+        {
+            "error": "field_name_conflict",
+            "error_span": {"start": 45, "len": 1}
+        },
+        {
+            "error": "field_name_conflict",
+            "error_span": {"start": 76, "len": 1}
+        },
+        {
+            "error": "field_name_conflict",
+            "error_span": {"start": 107, "len": 1}
+        }
+    ]
+}

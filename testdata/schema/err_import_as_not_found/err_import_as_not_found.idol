@@ -1,0 +1,7 @@
+namespace "idol.test/ns"
+
+export { noexist_a.Foo }
+
+message A {
+	bar @1 :noexist_b.Foo
+}

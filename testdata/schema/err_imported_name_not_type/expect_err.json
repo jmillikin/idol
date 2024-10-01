@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "imported_name_not_type",
+            "error_span": {"start": 86, "len": 3}
+        },
+        {
+            "error": "imported_name_not_type",
+            "error_span": {"start": 98, "len": 3}
+        }
+    ]
+}

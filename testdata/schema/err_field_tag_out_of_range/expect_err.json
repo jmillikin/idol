@@ -1,0 +1,20 @@
+{
+    "errors": [
+        {
+            "error": "field_tag_out_of_range",
+            "error_span": {"start": 41, "len": 2}
+        },
+        {
+            "error": "field_tag_out_of_range",
+            "error_span": {"start": 51, "len": 6}
+        },
+        {
+            "error": "field_tag_out_of_range",
+            "error_span": {"start": 78, "len": 2}
+        },
+        {
+            "error": "field_tag_out_of_range",
+            "error_span": {"start": 88, "len": 6}
+        }
+    ]
+}

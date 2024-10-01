@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "protocol_item_name_conflict",
+            "error_span": {"start": 80, "len": 5}
+        },
+        {
+            "error": "protocol_item_name_conflict",
+            "error_span": {"start": 170, "len": 5}
+        }
+    ]
+}

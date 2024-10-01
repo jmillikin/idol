@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "enum_item_name_conflict",
+            "error_span": {"start": 65, "len": 1}
+        },
+        {
+            "error": "enum_item_name_conflict",
+            "error_span": {"start": 72, "len": 1}
+        }
+    ]
+}

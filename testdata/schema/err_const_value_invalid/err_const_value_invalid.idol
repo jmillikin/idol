@@ -1,0 +1,11 @@
+namespace "idol.test/ns"
+
+const BAD_BOOL: bool = .FALSE
+
+const BAD_ASCIZ_1: asciz = "a \x00 b"
+const BAD_ASCIZ_2: asciz = "a b\x00"
+const BAD_ASCIZ_3: asciz = "a \u{0000} b"
+
+const BAD_TEXT_1: text = "a \x00 b"
+const BAD_TEXT_2: text = "a \u{0000} b"
+const BAD_TEXT_3: text = "a \x80 b"

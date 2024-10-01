@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "declaration_name_conflict_import",
+            "error_span": {"start": 68, "len": 3}
+        }
+    ]
+}

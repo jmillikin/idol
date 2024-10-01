@@ -1,0 +1,60 @@
+{
+    "errors": [
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 52, "len": 5}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 65, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 97, "len": 4}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 109, "len": 5}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 146, "len": 7}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 161, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 195, "len": 6}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 209, "len": 7}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 248, "len": 11}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 267, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 301, "len": 10}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 319, "len": 11}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 362, "len": 2}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 396, "len": 18}
+        }
+    ]
+}

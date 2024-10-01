@@ -1,0 +1,16 @@
+namespace "idol.test/ns"
+
+struct A {
+	a: u8
+	a: u8
+}
+
+message B {
+	b@1: u8
+	b@2: u8
+}
+
+union C {
+	c@1: u8
+	c@2: u8
+}

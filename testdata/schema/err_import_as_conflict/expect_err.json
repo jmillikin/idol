@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "import_as_conflict",
+            "error_span": {"start": 66, "len": 39}
+        }
+    ]
+}

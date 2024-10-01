@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "import_namespace_not_found",
+            "error_span": {"start": 33, "len": 23}
+        }
+    ]
+}

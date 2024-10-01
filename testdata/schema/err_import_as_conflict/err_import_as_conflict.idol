@@ -1,0 +1,8 @@
+namespace "idol.test/ns"
+
+import "example.test/ns1" as example_ns
+import "example.test/ns2" as example_ns
+
+message A {
+	foo @1 :example_ns.Foo
+}

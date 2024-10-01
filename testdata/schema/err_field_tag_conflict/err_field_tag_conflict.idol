@@ -1,0 +1,11 @@
+namespace "idol.test/ns"
+
+message A {
+	a@1: u8
+	b@1: u8
+}
+
+union B {
+	a@1: u8
+	b@1: u8
+}
