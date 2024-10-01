@@ -3,3 +3,5 @@ namespace "example.test/ns"
 message Foo {}
 
 message Bar {}
+
+message Baz {}

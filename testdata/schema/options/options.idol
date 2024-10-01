@@ -11,8 +11,6 @@ options: FooOptions {
 	a = 12
 	b = 34
 	nested.a = 56
-	unknown = 78
-	nested.unknown = 910
 }
 
 @options { a = 12 }

@@ -33,14 +33,6 @@ options {
 		type = .U32
 		value = [0x38, 0x00, 0x00, 0x00]
 	}
-	options {
-		name = "unknown"
-		value = [0x37, 0x38]
-	}
-	options {
-		name = "nested.unknown"
-		value = [0x39, 0x31, 0x30]
-	}
 }
 messages {
 	name = "MessageWithOptions"
