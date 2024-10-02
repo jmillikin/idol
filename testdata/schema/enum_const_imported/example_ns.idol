@@ -1,0 +1,11 @@
+namespace "example.test/ns"
+
+const CONST_U8_0A: u8 = 0x0A
+const CONST_U8_0C: u8 = 0x0C
+
+const CONST_ENUM_AA: EnumU8 = .AA
+
+enum EnumU8: u8 {
+	AA = 0xAA
+	CC = 0xCC
+}

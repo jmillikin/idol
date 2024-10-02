@@ -1,0 +1,76 @@
+namespace = "idol.test/ns"
+enums {
+	name = "EnumU8"
+	type = .U8
+}
+enums {
+	name = "EnumI8"
+	type = .I8
+}
+enums {
+	name = "EnumU16"
+	type = .U16
+}
+enums {
+	name = "EnumI16"
+	type = .I16
+}
+enums {
+	name = "EnumU32"
+	type = .U32
+}
+enums {
+	name = "EnumI32"
+	type = .I32
+}
+enums {
+	name = "EnumU64"
+	type = .U64
+}
+enums {
+	name = "EnumI64"
+	type = .I64
+}
+structs {
+	name = "EnumFields"
+	fields {
+		name = "enum_u8"
+		type = .U8
+		type_name = "EnumU8"
+	}
+	fields {
+		name = "enum_i8"
+		type = .I8
+		type_name = "EnumI8"
+	}
+	fields {
+		name = "enum_u16"
+		type = .U16
+		type_name = "EnumU16"
+	}
+	fields {
+		name = "enum_i16"
+		type = .I16
+		type_name = "EnumI16"
+	}
+	fields {
+		name = "enum_u32"
+		type = .U32
+		type_name = "EnumU32"
+	}
+	fields {
+		name = "enum_i32"
+		type = .I32
+		type_name = "EnumI32"
+	}
+	fields {
+		name = "enum_u64"
+		type = .U64
+		type_name = "EnumU64"
+	}
+	fields {
+		name = "enum_i64"
+		type = .I64
+		type_name = "EnumI64"
+	}
+}

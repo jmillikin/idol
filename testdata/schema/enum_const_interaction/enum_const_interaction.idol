@@ -1,0 +1,11 @@
+namespace "idol.test/ns"
+
+const CONST_U8_BB: u8 = 0xBB
+
+const CONST_ENUM_U8_AA: EnumU8 = .AA
+const CONST_ENUM_U8_BB: EnumU8 = .BB
+
+enum EnumU8: u8 {
+	AA = 0xAA
+	BB = CONST_U8_BB
+}

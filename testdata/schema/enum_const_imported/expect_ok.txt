@@ -1,0 +1,32 @@
+namespace = "idol.test/ns"
+imports {
+	namespace = "example.test/ns"
+	names = [
+		"CONST_ENUM_AA"
+		"CONST_U8_0A"
+		"CONST_U8_0C"
+		"EnumU8"
+	]
+}
+consts {
+	name = "CONST_U8_0A_NEW"
+	type = .U8
+	value = [0x0A]
+}
+consts {
+	name = "CONST_U8_0C_NEW"
+	type = .U8
+	value = [0x0C]
+}
+consts {
+	name = "CONST_ENUM_AA_NEW"
+	type = .U8
+	type_name = "example.test/ns\x1FEnumU8"
+	value = [0xAA]
+}
+consts {
+	name = "CONST_ENUM_CC"
+	type = .U8
+	type_name = "example.test/ns\x1FEnumU8"
+	value = [0xCC]
+}

@@ -1,0 +1,10 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { EnumU8 CONST_U8_0A CONST_ENUM_AA }
+import "example.test/ns" as example_ns
+
+const CONST_U8_0A_NEW: u8 = CONST_U8_0A
+const CONST_U8_0C_NEW: u8 = example_ns.CONST_U8_0C
+
+const CONST_ENUM_AA_NEW: EnumU8 = CONST_ENUM_AA
+const CONST_ENUM_CC: EnumU8 = .CC

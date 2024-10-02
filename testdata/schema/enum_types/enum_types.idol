@@ -1,0 +1,27 @@
+namespace "idol.test/ns"
+
+enum EnumU8: u8 {}
+enum EnumI8: i8 {}
+
+enum EnumU16: u16 {}
+enum EnumI16: i16 {}
+
+enum EnumU32: u32 {}
+enum EnumI32: i32 {}
+
+enum EnumU64: u64 {}
+enum EnumI64: i64 {}
+
+struct EnumFields {
+	enum_u8: EnumU8
+	enum_i8: EnumI8
+
+	enum_u16: EnumU16
+	enum_i16: EnumI16
+
+	enum_u32: EnumU32
+	enum_i32: EnumI32
+
+	enum_u64: EnumU64
+	enum_i64: EnumI64
+}

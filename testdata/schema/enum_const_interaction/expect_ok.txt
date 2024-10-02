@@ -1,0 +1,30 @@
+namespace = "idol.test/ns"
+consts {
+	name = "CONST_U8_BB"
+	type = .U8
+	value = [0xBB]
+}
+consts {
+	name = "CONST_ENUM_U8_AA"
+	type = .U8
+	type_name = "EnumU8"
+	value = [0xAA]
+}
+consts {
+	name = "CONST_ENUM_U8_BB"
+	type = .U8
+	type_name = "EnumU8"
+	value = [0xBB]
+}
+enums {
+	name = "EnumU8"
+	type = .U8
+	items {
+		name = "AA"
+		value = 170
+	}
+	items {
+		name = "BB"
+		value = 187
+	}
+}
