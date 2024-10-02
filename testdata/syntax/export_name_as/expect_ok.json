@@ -63,7 +63,7 @@
                 {"space": {
                     "span": {"start": 65, "len": 1},
                     "unparse": " "}},
-                {"type-name": {
+                {"export-name": {
                     "span": {"start": 66, "len": 3},
                     "child-nodes": [
                         {"ident": {

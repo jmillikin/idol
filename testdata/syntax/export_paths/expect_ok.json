@@ -97,7 +97,7 @@
                 {"space": {
                     "span": {"start": 108, "len": 1},
                     "unparse": " "}},
-                {"type-name": {
+                {"export-name": {
                     "span": {"start": 109, "len": 14},
                     "child-nodes": [
                         {"ident": {
@@ -113,7 +113,7 @@
                 {"space": {
                     "span": {"start": 123, "len": 1},
                     "unparse": " "}},
-                {"type-name": {
+                {"export-name": {
                     "span": {"start": 124, "len": 3},
                     "child-nodes": [
                         {"ident": {

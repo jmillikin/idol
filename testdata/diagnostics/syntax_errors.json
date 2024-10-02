@@ -103,5 +103,11 @@
 	},
 	"expected_protocol_item": {
 		"code": 2025
+	},
+	"expected_value_name": {
+		"code": 2026
+	},
+	"expected_export_name": {
+		"code": 2027
 	}
 }
