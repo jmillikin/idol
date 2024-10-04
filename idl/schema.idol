@@ -15,6 +15,12 @@
 
 namespace "idol/schema"
 
+import "idol/codegen-options/go" as go
+
+options: go.SchemaOptions {
+	package = "go.idol-lang.org/idol/schema_idl"
+}
+
 enum Type :u8 {
 	UNKNOWN =  0
 	BOOL    =  1
