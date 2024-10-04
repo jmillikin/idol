@@ -1,0 +1,68 @@
+{
+	"warnings": [
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 78, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 105, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 158, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 185, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 226, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 254, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 307, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 335, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 377, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 404, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 432, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 460, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 513, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 540, "len": 17}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 568, "len": 18}
+		},
+		{
+			"warning": "option_name_not_found",
+			"warning_span": {"start": 596, "len": 18}
+		}
+	]
+}

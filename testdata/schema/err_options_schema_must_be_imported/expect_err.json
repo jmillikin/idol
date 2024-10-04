@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "options_schema_must_be_imported",
+            "error_span": {"start": 35, "len": 10}
+        }
+    ]
+}

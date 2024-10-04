@@ -41,7 +41,7 @@ message Schema {
 
 	imports @2 :Import[]
 	exports @3 :Export[]
-	options @4 :Options[]
+	options @4 :SchemaOptions
 
 	consts @5 :Const[]
 	enums @6 :Enum[]
@@ -72,31 +72,18 @@ enum ExportType :u8 {
 	PROTOCOL = 6
 }
 
-message Options {
-	schema_type @1 :Type
-	schema_type_name @2 :text
-	options @3 :Option[]
-}
-
-message Option {
-	name @1 :text
-	type @2 :Type
-	type_name @3 :text
-	value @4 :u8[]
-}
-
 message Const {
 	name @1 :text
 	type @2 :Type
 	type_name @3 :text
 	value @4 :u8[]
-	options @5 :Options[]
+	options @5 :ConstOptions
 }
 
 message Enum {
 	name @1 :text
 	type @2 :Type
-	options @4 :Options[]
+	options @4 :EnumOptions
 	items @3 :EnumItem[]
 }
 
@@ -104,12 +91,12 @@ message EnumItem {
 	name @1 :text
 	value @2 :u64
 	is_alias @3 :bool
-	options @4 :Options[]
+	options @4 :EnumItemOptions
 }
 
 message Struct {
 	name @1 :text
-	options @3 :Options[]
+	options @3 :StructOptions
 	fields @2 :StructField[]
 }
 
@@ -118,12 +105,12 @@ message StructField {
 	type @2 :Type
 	type_name @3 :text
 	array_len @4 :u32
-	options @5 :Options[]
+	options @5 :StructFieldOptions
 }
 
 message Message {
 	name @1 :text
-	options @3 :Options[]
+	options @3 :MessageOptions
 	fields @2 :MessageField[]
 }
 
@@ -133,12 +120,12 @@ message MessageField {
 	type @3 :Type
 	type_name @4 :text
 	array_len @5 :u32
-	options @6 :Options[]
+	options @6 :MessageFieldOptions
 }
 
 message Union {
 	name @1 :text
-	options @3 :Options[]
+	options @3 :UnionOptions
 	fields @2 :UnionField[]
 }
 
@@ -148,14 +135,14 @@ message UnionField {
 	type @3 :Type
 	type_name @4 :text
 	array_len @5 :u32
-	options @6 :Options[]
+	options @6 :UnionFieldOptions
 }
 
 message Protocol {
 	name @1 :text
+	options @4 :ProtocolOptions
 	rpcs @2 :ProtocolRpc[]
 	events @3 :ProtocolEvent[]
-	options @4 :Options[]
 }
 
 message ProtocolRpc {
@@ -171,6 +158,8 @@ message ProtocolRpc {
 	response_type @6 :Type
 	response_type_name @7 :text
 	response_is_stream @8 :bool
+
+	options @9 :ProtocolRpcOptions
 }
 
 message ProtocolEvent {
@@ -181,4 +170,71 @@ message ProtocolEvent {
 
 	payload_type @3 :Type
 	payload_type_name @4 :text
+
+	options @5 :ProtocolEventOptions
+}
+
+message SchemaOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message ConstOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message EnumOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message EnumItemOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message StructOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message StructFieldOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message MessageOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message MessageFieldOptions {
+	optional @2 :bool
+	uninterpreted @3 :UninterpretedOptions[]
+}
+
+message UnionOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message UnionFieldOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message ProtocolOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message ProtocolRpcOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message ProtocolEventOptions {
+	uninterpreted @2 :UninterpretedOptions[]
+}
+
+message UninterpretedOptions {
+	schema_type @1 :Type
+	schema_type_name @2 :text
+	options @3 :UninterpretedOption[]
+}
+
+message UninterpretedOption {
+	name @1 :text
+	type @2 :Type
+	value @3 :u8[]
 }

@@ -1,0 +1,43 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { FooOptions }
+
+@options: FooOptions { opt_a = 12 }
+const A: bool = .true
+
+@options: FooOptions { opt_a = 12 }
+enum B: u8 {
+	@options: FooOptions { opt_b = 34 }
+	A = 1
+}
+
+@options: FooOptions { opt_a = 12 }
+struct C {
+	@options: FooOptions { opt_b = 34 }
+	a: u32
+}
+
+@options: FooOptions { opt_a = 12 }
+message D {
+	@options: FooOptions { opt_b = 34 }
+	a @1 :u32
+}
+
+@options: FooOptions { opt_a = 12 }
+union E {
+	@options: FooOptions { opt_b = 34 }
+	a @1 :u32
+}
+
+@options: FooOptions { opt_a = 12 }
+protocol F {
+	@options: FooOptions { opt_b = 34 }
+	rpc A(RpcRequest): RpcResponse
+
+	@options: FooOptions { opt_c = 56 }
+	event B: RpcRequest
+}
+
+message RpcRequest {}
+
+message RpcResponse {}

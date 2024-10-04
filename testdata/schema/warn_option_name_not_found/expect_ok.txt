@@ -1,0 +1,90 @@
+namespace = "idol.test/ns"
+imports {
+	namespace = "example.test/ns"
+	names = [
+		"FooOptions"
+	]
+}
+options = {
+	uninterpreted {
+		options {
+			name = "uninterpreted_u64"
+			value = [0x31, 0x32, 0x33, 0x34, 0x35]
+		}
+		options {
+			name = "uninterpreted_i64"
+			value = [0x2D, 0x31, 0x32, 0x33, 0x34, 0x35]
+		}
+		options {
+			name = "uninterpreted_enum"
+			value = [0x2E, 0x74, 0x72, 0x75, 0x65]
+		}
+		options {
+			name = "uninterpreted_text"
+			value = [0x22, 0x61, 0x62, 0x63, 0x22]
+		}
+	}
+	uninterpreted {
+		schema_type = .MESSAGE
+		schema_type_name = "example.test/ns\x1FFooOptions"
+		options {
+			name = "uninterpreted_u64"
+			value = [0x31, 0x32, 0x33, 0x34, 0x35]
+		}
+		options {
+			name = "uninterpreted_i64"
+			value = [0x2D, 0x31, 0x32, 0x33, 0x34, 0x35]
+		}
+		options {
+			name = "uninterpreted_enum"
+			value = [0x2E, 0x74, 0x72, 0x75, 0x65]
+		}
+		options {
+			name = "uninterpreted_text"
+			value = [0x22, 0x61, 0x62, 0x63, 0x22]
+		}
+	}
+}
+messages {
+	name = "A"
+	options = {
+		uninterpreted {
+			options {
+				name = "uninterpreted_u64"
+				value = [0x31, 0x32, 0x33, 0x34, 0x35]
+			}
+			options {
+				name = "uninterpreted_i64"
+				value = [0x2D, 0x31, 0x32, 0x33, 0x34, 0x35]
+			}
+			options {
+				name = "uninterpreted_enum"
+				value = [0x2E, 0x74, 0x72, 0x75, 0x65]
+			}
+			options {
+				name = "uninterpreted_text"
+				value = [0x22, 0x61, 0x62, 0x63, 0x22]
+			}
+		}
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "uninterpreted_u64"
+				value = [0x31, 0x32, 0x33, 0x34, 0x35]
+			}
+			options {
+				name = "uninterpreted_i64"
+				value = [0x2D, 0x31, 0x32, 0x33, 0x34, 0x35]
+			}
+			options {
+				name = "uninterpreted_enum"
+				value = [0x2E, 0x74, 0x72, 0x75, 0x65]
+			}
+			options {
+				name = "uninterpreted_text"
+				value = [0x22, 0x61, 0x62, 0x63, 0x22]
+			}
+		}
+	}
+}

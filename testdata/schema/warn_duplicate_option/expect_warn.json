@@ -1,0 +1,8 @@
+{
+	"warnings": [
+		{
+			"warning": "duplicate_option",
+			"warning_span": {"start": 101, "len": 9}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "option_name_conflict",
+            "error_span": {"start": 101, "len": 9}
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 98, "len": 11}
+        },
+        {
+            "error": "value_out_of_range",
+            "error_span": {"start": 119, "len": 2}
+        }
+    ]
+}

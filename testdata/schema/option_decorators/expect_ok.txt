@@ -1,0 +1,196 @@
+namespace = "idol.test/ns"
+imports {
+	namespace = "example.test/ns"
+	names = [
+		"FooOptions"
+	]
+}
+consts {
+	name = "A"
+	type = .BOOL
+	value = [0x01]
+	options = {
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "opt_a"
+				type = .U32
+				value = [0x0C, 0x00, 0x00, 0x00]
+			}
+		}
+	}
+}
+enums {
+	name = "B"
+	type = .U8
+	options = {
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "opt_a"
+				type = .U32
+				value = [0x0C, 0x00, 0x00, 0x00]
+			}
+		}
+	}
+	items {
+		name = "A"
+		value = 1
+		options = {
+			uninterpreted {
+				schema_type = .MESSAGE
+				schema_type_name = "example.test/ns\x1FFooOptions"
+				options {
+					name = "opt_b"
+					type = .U32
+					value = [0x22, 0x00, 0x00, 0x00]
+				}
+			}
+		}
+	}
+}
+structs {
+	name = "C"
+	options = {
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "opt_a"
+				type = .U32
+				value = [0x0C, 0x00, 0x00, 0x00]
+			}
+		}
+	}
+	fields {
+		name = "a"
+		type = .U32
+		options = {
+			uninterpreted {
+				schema_type = .MESSAGE
+				schema_type_name = "example.test/ns\x1FFooOptions"
+				options {
+					name = "opt_b"
+					type = .U32
+					value = [0x22, 0x00, 0x00, 0x00]
+				}
+			}
+		}
+	}
+}
+messages {
+	name = "D"
+	options = {
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "opt_a"
+				type = .U32
+				value = [0x0C, 0x00, 0x00, 0x00]
+			}
+		}
+	}
+	fields {
+		name = "a"
+		tag = 1
+		type = .U32
+		options = {
+			uninterpreted {
+				schema_type = .MESSAGE
+				schema_type_name = "example.test/ns\x1FFooOptions"
+				options {
+					name = "opt_b"
+					type = .U32
+					value = [0x22, 0x00, 0x00, 0x00]
+				}
+			}
+		}
+	}
+}
+messages {
+	name = "RpcRequest"
+}
+messages {
+	name = "RpcResponse"
+}
+unions {
+	name = "E"
+	options = {
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "opt_a"
+				type = .U32
+				value = [0x0C, 0x00, 0x00, 0x00]
+			}
+		}
+	}
+	fields {
+		name = "a"
+		tag = 1
+		type = .U32
+		options = {
+			uninterpreted {
+				schema_type = .MESSAGE
+				schema_type_name = "example.test/ns\x1FFooOptions"
+				options {
+					name = "opt_b"
+					type = .U32
+					value = [0x22, 0x00, 0x00, 0x00]
+				}
+			}
+		}
+	}
+}
+protocols {
+	name = "F"
+	options = {
+		uninterpreted {
+			schema_type = .MESSAGE
+			schema_type_name = "example.test/ns\x1FFooOptions"
+			options {
+				name = "opt_a"
+				type = .U32
+				value = [0x0C, 0x00, 0x00, 0x00]
+			}
+		}
+	}
+	rpcs {
+		name = "A"
+		request_type = .MESSAGE
+		request_type_name = "RpcRequest"
+		response_type = .MESSAGE
+		response_type_name = "RpcResponse"
+		options = {
+			uninterpreted {
+				schema_type = .MESSAGE
+				schema_type_name = "example.test/ns\x1FFooOptions"
+				options {
+					name = "opt_b"
+					type = .U32
+					value = [0x22, 0x00, 0x00, 0x00]
+				}
+			}
+		}
+	}
+	events {
+		name = "B"
+		payload_type = .MESSAGE
+		payload_type_name = "RpcRequest"
+		options = {
+			uninterpreted {
+				schema_type = .MESSAGE
+				schema_type_name = "example.test/ns\x1FFooOptions"
+				options {
+					name = "opt_c"
+					type = .U32
+					value = [0x38, 0x00, 0x00, 0x00]
+				}
+			}
+		}
+	}
+}

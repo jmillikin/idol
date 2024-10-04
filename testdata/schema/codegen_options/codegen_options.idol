@@ -1,0 +1,14 @@
+namespace "idol.test/ns"
+
+import "idol/codegen-options/go" as go
+import "idol/codegen-options/java" as java
+
+options: go.SchemaOptions {
+	package = "go.example.test/some/package"
+}
+
+options: java.SchemaOptions {
+	package = "test.example.some.package"
+	outer_classname = "SomeClass"
+	multiple_files = .true
+}

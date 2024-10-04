@@ -1,0 +1,7 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { FooOptions }
+
+options: FooOptions {
+	opt_a = "a"
+}

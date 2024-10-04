@@ -28,5 +28,11 @@
 	},
 	"declaration_shadows_builtin": {
 		"code": 4009
+	},
+	"duplicate_option": {
+		"code": 4010
+	},
+	"option_name_not_found": {
+		"code": 4011
 	}
 }

@@ -1,0 +1,8 @@
+{
+    "errors": [
+        {
+            "error": "options_schema_must_be_message",
+            "error_span": {"start": 76, "len": 10}
+        }
+    ]
+}

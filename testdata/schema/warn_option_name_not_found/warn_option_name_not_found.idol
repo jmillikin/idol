@@ -1,0 +1,37 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { FooOptions }
+
+options {
+	uninterpreted_u64 = 12345
+	uninterpreted_i64 = -12345
+}
+
+options: FooOptions {
+	uninterpreted_u64 = 12345
+	uninterpreted_i64 = -12345
+}
+
+options {
+	uninterpreted_enum = .true
+	uninterpreted_text = "abc"
+}
+
+options: FooOptions {
+	uninterpreted_enum = .true
+	uninterpreted_text = "abc"
+}
+
+@options {
+	uninterpreted_u64 = 12345
+	uninterpreted_i64 = -12345
+	uninterpreted_enum = .true
+	uninterpreted_text = "abc"
+}
+@options: FooOptions {
+	uninterpreted_u64 = 12345
+	uninterpreted_i64 = -12345
+	uninterpreted_enum = .true
+	uninterpreted_text = "abc"
+}
+message A {}

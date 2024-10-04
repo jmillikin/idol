@@ -1,0 +1,18 @@
+namespace = "idol.test/ns"
+imports {
+	namespace = "example.test/ns"
+	names = [
+		"FooOptions"
+	]
+}
+options = {
+	uninterpreted {
+		schema_type = .MESSAGE
+		schema_type_name = "example.test/ns\x1FFooOptions"
+		options {
+			name = "opt_a"
+			type = .U32
+			value = [0x01, 0x00, 0x00, 0x00]
+		}
+	}
+}

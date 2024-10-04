@@ -1,0 +1,6 @@
+namespace "example.test/ns"
+
+struct FooOptions {
+	opt_a: u32
+	opt_b: u32
+}

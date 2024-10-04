@@ -1,0 +1,11 @@
+namespace "idol.test/ns"
+
+options: FooOptions {
+	opt_a = 1
+	opt_a = 2
+}
+
+message FooOptions {
+	opt_a @1 :u32
+	opt_b @2 :u32
+}

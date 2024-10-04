@@ -29,11 +29,17 @@
 	"_type_name_not_found": {
 		"code": 3009
 	},
-	"_option_name_conflict": {
+	"option_name_conflict": {
 		"code": 3010
 	},
-	"_option_value_type_invalid": {
+	"option_value_type_invalid": {
 		"code": 3011
+	},
+	"options_schema_must_be_message": {
+		"code": 3031
+	},
+	"options_schema_must_be_imported": {
+		"code": 3032
 	},
 	"declaration_name_conflict": {
 		"code": 3012

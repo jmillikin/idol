@@ -1,0 +1,7 @@
+namespace "example.test/ns"
+
+message FooOptions {
+	opt_a @1 :u32
+	opt_b @2 :u32
+	opt_c @3 :u32
+}

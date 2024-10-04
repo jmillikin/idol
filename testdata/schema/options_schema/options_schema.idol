@@ -1,0 +1,10 @@
+namespace "idol.test/ns"
+
+import "example.test/ns" { FooOptions }
+
+options: FooOptions {
+	opt_a = 12
+	opt_b = 34
+	nested.opt_a = 56
+	nested.opt_c = 78
+}
