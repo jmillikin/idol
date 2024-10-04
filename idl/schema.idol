@@ -44,17 +44,18 @@ enum Type :u8 {
 
 message Schema {
 	namespace @1 :text
+	source_path @2 :text[]
 
-	imports @2 :Import[]
-	exports @3 :Export[]
-	options @4 :SchemaOptions
+	imports @3 :Import[]
+	exports @4 :Export[]
+	options @5 :SchemaOptions
 
-	consts @5 :Const[]
-	enums @6 :Enum[]
-	structs @7 :Struct[]
-	messages @8 :Message[]
-	unions @9 :Union[]
-	protocols @10 :Protocol[]
+	consts @6 :Const[]
+	enums @7 :Enum[]
+	structs @8 :Struct[]
+	messages @9 :Message[]
+	unions @10 :Union[]
+	protocols @11 :Protocol[]
 }
 
 message Import {
