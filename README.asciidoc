@@ -1,0 +1,113 @@
+= Idol
+:url-go-idol: https://github.com/jmillikin/go-idol
+:url-idl: https://en.wikipedia.org/wiki/Interface_description_language
+:url-ipc: https://en.wikipedia.org/wiki/Inter-process_communication
+:url-protobuf: https://protobuf.dev/
+:url-fidl: https://fuchsia.dev/fuchsia-src/development/languages/fidl
+:url-cc-by: https://creativecommons.org/licenses/by/4.0/
+:url-0bsd: https://spdx.org/licenses/0BSD.html
+
+image:https://img.shields.io/badge/License-CC\--BY\--4.0-blue.svg[link="https://creativecommons.org/licenses/by/4.0/"]
+
+Idol is a language- and platform-independent {url-idl}[IDL] and encoding for zero-copy serialization of structured data. It's designed to be efficient, portable, and simple to implement.
+
+Idol aims to bring the ergonomics of {url-protobuf}[Protocol Buffers] to local {url-ipc}[IPC]. It is well-suited for low-latency communications between mutually-untrusted processes on a single machine, between a kernel and userland, or between a hypervisor and VM guest. Idol's binary encoding is structurally similar to Fuchsia's {url-fidl}[FIDL], but with the Fuchsia-specific aspects altered or removed.
+
+The Idol specification (this repository) is licensed under the {url-cc-by}[Creative Commons Attribution 4.0 license]. The reference implementation is {url-go-idol}, which is licensed under the {url-0bsd}[zero-clause BSD license].
+
+== Goals
+
+The design of Idol is driven by four core goals, which set it apart from other serialization formats such as Protobuf, FIDL, and Cap'n'Proto.
+
+**Efficient**: Idol should be fast enough to be a viable competitor to hand-written C `struct` pointers for low-latency communication over shared memory. It doesn't have to be faster than `memcpy()`, but it should be able to beat D-Bus and go toe-to-toe with Netlink.
+
+**Portable**: Idol should avoid design decisions that unreasonably constrain the platforms it can run on, such as assuming minimum/maximum pointer widths. It doesn't need to run on a PDP-11, but 32-bit WebAssembly and 128-bit CHERIoT are both in scope.
+
+**Simple**: The Idol specification should be simple enough that a person of ordinary skill in the art could go from an empty directory to a working decoder within a few hours. Writing a basic implementation of the IDL parser and compiler should be a matter of weeks, not months.
+
+**Bounded**: Idol is intended to have a bounded development lifecycle -- in other words, it can at some point be considered "complete". This goal is why Idol does not have its own IPC/RPC protocol, and why language-specific codegen options are decoupled from the schema compiler.
+
+== Stability
+
+Currently the Idol specification is not yet stable. While the the binary encoding is not expected to change, the IDL syntax and compiler semantics may be modified in backward-incompatible ways as the specification matures. This may cause the specification and reference implementation to get out of sync from time to time.
+
+The author's intention is for Idol to become a stable (frozen) format so that implementations in multiple languages have identical and predictable behavior.
+
+== Example
+
+A basic Idol schema file that defines a `User` record looks like this:
+
+[source,idol]
+----
+# hello.idol
+namespace "example.com/hello"
+
+message User {
+	id @1 :u32
+	login @2 :text
+	homedir @3 :text
+}
+----
+
+Given this `User` value:
+
+----
+User {
+	id = 12345
+	login = "jdoe"
+	homedir = "/home/jdoe"
+}
+----
+
+The binary encoding would look like this:
+
+----
+# Message header: size 56, max_tag 3
+38 00 00 00 00 00 03 00
+
+# Field @1 stored as inline: value 12345
+00 00 00 80 39 30 00 00
+
+# Field @2 stored as indirect: length 5
+00 00 00 C0 05 00 00 00
+
+# Field @3 stored as indirect: length 10
+00 00 00 C0 0A 00 00 00
+
+# (End of message fields, start of indirect storage area)
+
+# Data for first indirect field: "jdoe\x00" plus padding
+6A 64 6F 65 00 00 00 00
+
+# data for second indirect field: "/home/jdoe\x00" plus padding
+2F 68 6F 6D 65 2F 6A 64
+6F 65 00 00 00 00 00 00
+----
+
+Idol messages are decoded in-place by validating the content of each field, and modifying indirect fields to contain (bit-shifted) data offsets.
+
+Validation proceeds recursively, as the generated code knows the tag and type of each field in the schema it was generated from.
+
+----
+38 00 00 00 00 00 03 00
+00 00 00 80 39 30 00 00
+
+# Field @2 stored as indirect: length 5, offset 32 (0x04 << 3)
+04 00 00 C0 05 00 00 00
+
+# Field @3 stored as indirect: length 10, offset 40 (0x05 << 3)
+05 00 00 C0 0A 00 00 00
+
+6A 64 6F 65 00 00 00 00
+2F 68 6F 6D 65 2F 6A 64
+6F 65 00 00 00 00 00 00
+----
+
+== Future development
+
+The following features are planned before Idol stabilizes.
+
+* At least one complete implementation of the specification, fully tested with the language-independent files in `testdata/`.
+* A syntax specification (including ABNF) for the text encoding. It should be possible for users to write `.idoltext` files as an alternative to JSON or YAML, with predictable parsing across all implementations.
+* A compact encoding similar to Protobuf, so that simple non-zerocopy use cases can be handled without pulling in a second IDL.
+* Developer tooling such as an auto-formatter (à la `clang-format` or `gofmt`) and an AST-based plugin for at least one widely-used editor (similar to `rust-analyzer`).
