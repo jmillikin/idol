@@ -71,8 +71,8 @@ The binary encoding would look like this:
 # Field @2 stored as indirect: length 5
 00 00 00 C0 05 00 00 00
 
-# Field @3 stored as indirect: length 10
-00 00 00 C0 0A 00 00 00
+# Field @3 stored as indirect: length 11
+00 00 00 C0 0B 00 00 00
 
 # (End of message fields, start of indirect storage area)
 
@@ -95,8 +95,8 @@ Validation proceeds recursively, as the generated code knows the tag and type of
 # Field @2 stored as indirect: length 5, offset 32 (0x04 << 3)
 04 00 00 C0 05 00 00 00
 
-# Field @3 stored as indirect: length 10, offset 40 (0x05 << 3)
-05 00 00 C0 0A 00 00 00
+# Field @3 stored as indirect: length 11, offset 40 (0x05 << 3)
+05 00 00 C0 0B 00 00 00
 
 6A 64 6F 65 00 00 00 00
 2F 68 6F 6D 65 2F 6A 64
